@@ -8,7 +8,7 @@
 
     
 
-<img src="/Users/chengsun/Library/Application Support/typora-user-images/image-20211031144727325.png" alt="image-20211031144727325" style="zoom:25%;" />
+<img src="../images/image-20211031144727325.png" alt="image-20211031144727325" style="zoom:25%;" />
 
 
 
@@ -47,7 +47,7 @@ int[] array = {2, 3, 1, 0, 2};
 
 
 
-<img src="/Users/chengsun/Library/Application Support/typora-user-images/image-20211031145220165.png" alt="image-20211031145220165" style="zoom:25%;" />
+<img src="../images/image-20211031145220165.png" alt="image-20211031145220165" style="zoom:25%;" />
 
 
 
@@ -99,7 +99,7 @@ n2.next = n3;
 
 
 
-<img src="/Users/chengsun/Library/Application Support/typora-user-images/image-20211031145819570.png" alt="image-20211031145819570" style="zoom:25%;" />
+<img src="../images/image-20211031145819570.png" alt="image-20211031145819570" style="zoom:25%;" />
 
 
 
