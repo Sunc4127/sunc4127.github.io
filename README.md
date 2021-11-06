@@ -1,6 +1,4 @@
-[Java] (/Java/_01_Data_structure.md)
-
-
+[Java](/Java/_01_Data_structure.md)
 
 
 
