@@ -1,6 +1,4 @@
-[面试](面试) 
+[Ref]: /Java/_01_Data_structure.md	"Java"
 
-[Java](Java) 
 
-[data_Structure_and_Algorithm](data_Structure_and_Algorithm) 
 
