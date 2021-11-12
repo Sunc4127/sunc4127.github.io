@@ -1,3 +1,12 @@
+---
+title: _01_data_structure
+date: 2021-11-07 12:20:40
+permalink: /pages/477256/
+categories:
+  - data_Structure_and_Algorithm
+tags:
+  - 
+---
 [toc]
 
 # 前言

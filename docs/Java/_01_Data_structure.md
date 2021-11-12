@@ -1,3 +1,12 @@
+---
+title: _01_Data_structure
+date: 2021-11-07 12:15:50
+permalink: /pages/88d66d/
+categories:
+  - Java
+tags:
+  - 
+---
 [toc]
 
 ## 基本数据类型 

@@ -1,3 +1,12 @@
+---
+title: 2021 S02 SDA Part 4
+date: 2021-11-07 12:20:40
+permalink: /pages/90bf17/
+categories:
+  - All kinds of Drafts
+tags:
+  - 
+---
 # Pessimistic Offline Lock 
 
 We used Pessimistic Offline Lock to solve concurrency issues.
