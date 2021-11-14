@@ -28,7 +28,8 @@
   "dependencies": {
     "markdown-it": "^12.2.0",
     "markdown-it-footnote": "^3.0.3",
-    "markdown-it-latex": "^0.2.0",
+    "markdown-it-latex2img": "^0.0.6",
+    "markdown-it-mathjax": "^2.0.0",
     "markdown-it-texmath": "^0.9.5",
     "vdoing": "^1.0.3",
     "vuepress-plugin-comment": "^0.7.3"

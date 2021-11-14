@@ -13,7 +13,7 @@ module.exports = {
     markdown: {
         lineNumbers: true, // 代码行号
         extendMarkdown: (md) => {
-          md.use(require("markdown-it-latex"));
+          md.use(require("markdown-it-latex2img"));
         },
     },
 
