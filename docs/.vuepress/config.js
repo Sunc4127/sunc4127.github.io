@@ -15,8 +15,10 @@ module.exports = {
         extendMarkdown: (md) => {
             md.use(require("markdown-it-latex2img"));
             md.use(require("markdown-it-toc-done-right"));
+            md.use(require('markdown-it-mark'));
+            md.use(require('markdown-it-container', 'warning'));
+            md.use(require("markdown-it-emoji"));
         },
-        StyleSheet: './markdown.css'
     },
 
     head,
