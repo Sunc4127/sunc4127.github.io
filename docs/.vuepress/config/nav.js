@@ -6,9 +6,9 @@ module.exports = [
         link: "/blog/",
         items: [
             { text: "Data Structure and Algorithm", link: "/pages/477256/" },
-            { text: "Java", link: "/pages/88d66d/" },
+            { text: "Java", link: "/pages/c52bcc/" },
             { text: "面试", link: "/pages/ec338e/" },
-            { text: "Drafts", link: "/pages/90bf17/"},
+            { text: "Drafts", link: "/pages/90bf17/" },
         ],
     },
     {
