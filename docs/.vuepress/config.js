@@ -18,6 +18,7 @@ module.exports = {
             md.use(require('markdown-it-mark'));
             md.use(require('markdown-it-container', 'warning'));
             md.use(require("markdown-it-emoji"));
+            md.use(require('markdown-it-checkbox'));
         },
     },
 
