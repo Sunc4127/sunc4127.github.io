@@ -29,6 +29,7 @@ public class Employee {
   }
 
   private void setBaseSalary(int baseSalary) {
+    // data validation is encapsulated in the relevant class
     if (baseSalary <= 0)
       throw new IllegalArgumentException("Salary cannot be 0 or less.");
     this.baseSalary = baseSalary;

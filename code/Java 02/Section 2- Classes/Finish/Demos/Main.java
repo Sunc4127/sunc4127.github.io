@@ -17,5 +17,9 @@ public class Main {
         var textBox2 = new TextBox();
         textBox2.setText("Box 2");
         System.out.println(textBox2.text.toUpperCase());
+
+       var browser = new Browser();
+       browser.navigate();
+
     }
 }
