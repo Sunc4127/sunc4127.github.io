@@ -19,7 +19,7 @@ public class Main {
         System.out.println(textBox2.text.toUpperCase());
 
        var browser = new Browser();
-       browser.navigate();
+       browser.navigate("Good");
 
     }
 }
