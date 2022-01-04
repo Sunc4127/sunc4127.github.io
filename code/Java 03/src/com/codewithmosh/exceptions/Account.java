@@ -3,7 +3,7 @@ package com.codewithmosh.exceptions;
 public class Account {
   private float balance;
 
-  public void deposit(float value)  {
+  public void deposit(float value) {
     if (value <= 0)
       throw new IllegalArgumentException();
   }
@@ -13,19 +13,3 @@ public class Account {
       throw new AccountException(new InsufficientFundsException());
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
