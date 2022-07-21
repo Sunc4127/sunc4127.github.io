@@ -54,7 +54,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
     name: 'Scott',
-    slogan: '养猪中',
+    slogan: '恋爱中',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
