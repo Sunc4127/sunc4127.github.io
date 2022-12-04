@@ -9,6 +9,7 @@ module.exports = [
             { text: "Java", link: "/pages/c52bcc/" },
             { text: "面试", link: "/pages/ec338e/" },
             { text: "Drafts", link: "/pages/90bf17/" },
+            { text: "C++", link: "/pages/8f030c/" },
         ],
     },
     {
