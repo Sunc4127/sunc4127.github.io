@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>职工管理系统 | Scott の 博客</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/img/favicon.ico">
+    <script data-ad-client="ca-pub-7828333725993554" async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="description" content="web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。">
+    <meta name="keywords" content="前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown">
+    <meta name="baidu-site-verification" content="7F55weZDDc">
+    <meta name="theme-color" content="#11a8cd">
+    
+    <link rel="preload" href="/assets/css/0.styles.299a2460.css" as="style"><link rel="preload" href="/assets/js/app.66558662.js" as="script"><link rel="preload" href="/assets/js/2.27ba8ed1.js" as="script"><link rel="preload" href="/assets/js/114.85e767f8.js" as="script"><link rel="prefetch" href="/assets/js/10.3fc9fe0a.js"><link rel="prefetch" href="/assets/js/100.f69206af.js"><link rel="prefetch" href="/assets/js/101.e20813b3.js"><link rel="prefetch" href="/assets/js/102.7e34702a.js"><link rel="prefetch" href="/assets/js/103.27d4c6e2.js"><link rel="prefetch" href="/assets/js/104.14d29eea.js"><link rel="prefetch" href="/assets/js/105.d38f3c35.js"><link rel="prefetch" href="/assets/js/106.1acba1f5.js"><link rel="prefetch" href="/assets/js/107.7de1dc43.js"><link rel="prefetch" href="/assets/js/108.7f3958d6.js"><link rel="prefetch" href="/assets/js/109.e3d20703.js"><link rel="prefetch" href="/assets/js/11.3a052793.js"><link rel="prefetch" href="/assets/js/110.1cc29541.js"><link rel="prefetch" href="/assets/js/111.0daf7bea.js"><link rel="prefetch" href="/assets/js/112.c4327bfc.js"><link rel="prefetch" href="/assets/js/113.c4e7a650.js"><link rel="prefetch" href="/assets/js/115.716313d5.js"><link rel="prefetch" href="/assets/js/116.2dbd26e1.js"><link rel="prefetch" href="/assets/js/117.ca448bc6.js"><link rel="prefetch" href="/assets/js/118.c6db0e66.js"><link rel="prefetch" href="/assets/js/119.14fde7b7.js"><link rel="prefetch" href="/assets/js/12.bdb345d7.js"><link rel="prefetch" href="/assets/js/120.f72f02c1.js"><link rel="prefetch" href="/assets/js/121.71a72e36.js"><link rel="prefetch" href="/assets/js/122.3e022def.js"><link rel="prefetch" href="/assets/js/123.f50d5716.js"><link rel="prefetch" href="/assets/js/124.d5089302.js"><link rel="prefetch" href="/assets/js/125.73b4ac14.js"><link rel="prefetch" href="/assets/js/126.2f7d2c17.js"><link rel="prefetch" href="/assets/js/127.aa8d4f3a.js"><link rel="prefetch" href="/assets/js/128.7c63d104.js"><link rel="prefetch" href="/assets/js/129.3d35cfaf.js"><link rel="prefetch" href="/assets/js/13.58109c61.js"><link rel="prefetch" href="/assets/js/130.d32e10d4.js"><link rel="prefetch" href="/assets/js/131.8f815537.js"><link rel="prefetch" href="/assets/js/132.8b73c88e.js"><link rel="prefetch" href="/assets/js/133.2dcb9174.js"><link rel="prefetch" href="/assets/js/134.b6a6ce36.js"><link rel="prefetch" href="/assets/js/135.bcb28819.js"><link rel="prefetch" href="/assets/js/136.ac619fea.js"><link rel="prefetch" href="/assets/js/137.1774a56a.js"><link rel="prefetch" href="/assets/js/138.d40682a0.js"><link rel="prefetch" href="/assets/js/139.e14e61a1.js"><link rel="prefetch" href="/assets/js/14.f0b5ebc4.js"><link rel="prefetch" href="/assets/js/140.6bb3f9e1.js"><link rel="prefetch" href="/assets/js/141.194d3a41.js"><link rel="prefetch" href="/assets/js/142.4514b772.js"><link rel="prefetch" href="/assets/js/143.b94c2804.js"><link rel="prefetch" href="/assets/js/144.c15998aa.js"><link rel="prefetch" href="/assets/js/145.79b056c9.js"><link rel="prefetch" href="/assets/js/146.5b751f20.js"><link rel="prefetch" href="/assets/js/147.7a128c1a.js"><link rel="prefetch" href="/assets/js/148.2b5ec6b1.js"><link rel="prefetch" href="/assets/js/149.c6db8eeb.js"><link rel="prefetch" href="/assets/js/15.bc9fd95f.js"><link rel="prefetch" href="/assets/js/150.eaff9719.js"><link rel="prefetch" href="/assets/js/151.81a7a31a.js"><link rel="prefetch" href="/assets/js/152.19433e2d.js"><link rel="prefetch" href="/assets/js/153.1b2be4f1.js"><link rel="prefetch" href="/assets/js/154.5166dc93.js"><link rel="prefetch" href="/assets/js/155.28733fc1.js"><link rel="prefetch" href="/assets/js/156.60c9389a.js"><link rel="prefetch" href="/assets/js/157.e0fa34c6.js"><link rel="prefetch" href="/assets/js/158.3994a070.js"><link rel="prefetch" href="/assets/js/159.fb923571.js"><link rel="prefetch" href="/assets/js/16.8850deea.js"><link rel="prefetch" href="/assets/js/160.37415d6f.js"><link rel="prefetch" href="/assets/js/161.cf0bdf20.js"><link rel="prefetch" href="/assets/js/162.0dca5d25.js"><link rel="prefetch" href="/assets/js/163.e3e0be7a.js"><link rel="prefetch" href="/assets/js/164.69aa3bc6.js"><link rel="prefetch" href="/assets/js/165.11acdb6b.js"><link rel="prefetch" href="/assets/js/166.b15794cb.js"><link rel="prefetch" href="/assets/js/167.21b79794.js"><link rel="prefetch" href="/assets/js/168.dc234c6d.js"><link rel="prefetch" href="/assets/js/169.e90f4a91.js"><link rel="prefetch" href="/assets/js/17.a16b752d.js"><link rel="prefetch" href="/assets/js/170.9b5055da.js"><link rel="prefetch" href="/assets/js/171.1cc4efb8.js"><link rel="prefetch" href="/assets/js/172.8ae98616.js"><link rel="prefetch" href="/assets/js/173.dc1f042a.js"><link rel="prefetch" href="/assets/js/174.dc1fb0ab.js"><link rel="prefetch" href="/assets/js/175.7315173e.js"><link rel="prefetch" href="/assets/js/176.d55a780a.js"><link rel="prefetch" href="/assets/js/177.5410a969.js"><link rel="prefetch" href="/assets/js/178.5fd5eedc.js"><link rel="prefetch" href="/assets/js/179.7cecff0e.js"><link rel="prefetch" href="/assets/js/18.518e8e9b.js"><link rel="prefetch" href="/assets/js/180.ea67916c.js"><link rel="prefetch" href="/assets/js/181.5e92a56b.js"><link rel="prefetch" href="/assets/js/182.21fd67be.js"><link rel="prefetch" href="/assets/js/183.49a3b91c.js"><link rel="prefetch" href="/assets/js/184.e6203bec.js"><link rel="prefetch" href="/assets/js/185.90c24441.js"><link rel="prefetch" href="/assets/js/186.a2a8a4ea.js"><link rel="prefetch" href="/assets/js/187.df58711b.js"><link rel="prefetch" href="/assets/js/188.51af7625.js"><link rel="prefetch" href="/assets/js/189.5cf495ed.js"><link rel="prefetch" href="/assets/js/19.d4d682fb.js"><link rel="prefetch" href="/assets/js/190.5de4d4bb.js"><link rel="prefetch" href="/assets/js/191.843cfd51.js"><link rel="prefetch" href="/assets/js/192.ade93dbc.js"><link rel="prefetch" href="/assets/js/193.fccf3bd1.js"><link rel="prefetch" href="/assets/js/194.6c59e57a.js"><link rel="prefetch" href="/assets/js/195.cb3188b9.js"><link rel="prefetch" href="/assets/js/196.119ff5cd.js"><link rel="prefetch" href="/assets/js/197.23520aa4.js"><link rel="prefetch" href="/assets/js/198.450423c0.js"><link rel="prefetch" href="/assets/js/199.edad251a.js"><link rel="prefetch" href="/assets/js/20.f330f3d6.js"><link rel="prefetch" href="/assets/js/200.418742c3.js"><link rel="prefetch" href="/assets/js/201.06871a48.js"><link rel="prefetch" href="/assets/js/202.4a8b076e.js"><link rel="prefetch" href="/assets/js/203.0d3eacc6.js"><link rel="prefetch" href="/assets/js/204.64876a75.js"><link rel="prefetch" href="/assets/js/205.ae9489c5.js"><link rel="prefetch" href="/assets/js/206.27ae48ab.js"><link rel="prefetch" href="/assets/js/207.bf3b242b.js"><link rel="prefetch" href="/assets/js/208.6dea3e07.js"><link rel="prefetch" href="/assets/js/209.01fb797c.js"><link rel="prefetch" href="/assets/js/21.3c4f3651.js"><link rel="prefetch" href="/assets/js/210.96d16d13.js"><link rel="prefetch" href="/assets/js/211.3a1a8ed5.js"><link rel="prefetch" href="/assets/js/212.caebb7e5.js"><link rel="prefetch" href="/assets/js/213.305ecfaa.js"><link rel="prefetch" href="/assets/js/214.1610efa0.js"><link rel="prefetch" href="/assets/js/215.2495defd.js"><link rel="prefetch" href="/assets/js/216.77d05cfa.js"><link rel="prefetch" href="/assets/js/217.940cbb09.js"><link rel="prefetch" href="/assets/js/218.f5205692.js"><link rel="prefetch" href="/assets/js/219.7abad0de.js"><link rel="prefetch" href="/assets/js/22.d9dfe616.js"><link rel="prefetch" href="/assets/js/220.04db5b95.js"><link rel="prefetch" href="/assets/js/221.21f5199e.js"><link rel="prefetch" href="/assets/js/222.bb75b492.js"><link rel="prefetch" href="/assets/js/223.3e757633.js"><link rel="prefetch" href="/assets/js/224.a5856011.js"><link rel="prefetch" href="/assets/js/225.b2346bd7.js"><link rel="prefetch" href="/assets/js/226.a38eda64.js"><link rel="prefetch" href="/assets/js/227.3c83c5b4.js"><link rel="prefetch" href="/assets/js/228.ff371547.js"><link rel="prefetch" href="/assets/js/229.54a55a82.js"><link rel="prefetch" href="/assets/js/23.07762aee.js"><link rel="prefetch" href="/assets/js/230.0c2d8047.js"><link rel="prefetch" href="/assets/js/231.de8fabff.js"><link rel="prefetch" href="/assets/js/232.1d1b056a.js"><link rel="prefetch" href="/assets/js/233.2299fe69.js"><link rel="prefetch" href="/assets/js/234.81238d2f.js"><link rel="prefetch" href="/assets/js/235.f670236c.js"><link rel="prefetch" href="/assets/js/236.57797e8b.js"><link rel="prefetch" href="/assets/js/237.a1b2422f.js"><link rel="prefetch" href="/assets/js/238.ab6d34e0.js"><link rel="prefetch" href="/assets/js/239.34d75174.js"><link rel="prefetch" href="/assets/js/24.27c35a38.js"><link rel="prefetch" href="/assets/js/240.876eee5e.js"><link rel="prefetch" href="/assets/js/241.1cdc8c97.js"><link rel="prefetch" href="/assets/js/242.60dcb80c.js"><link rel="prefetch" href="/assets/js/243.a9e0533c.js"><link rel="prefetch" href="/assets/js/244.758a16ce.js"><link rel="prefetch" href="/assets/js/245.b56d735f.js"><link rel="prefetch" href="/assets/js/246.9dc697f9.js"><link rel="prefetch" href="/assets/js/247.2767611d.js"><link rel="prefetch" href="/assets/js/25.d19abe92.js"><link rel="prefetch" href="/assets/js/26.b48450ef.js"><link rel="prefetch" href="/assets/js/27.cfba57e0.js"><link rel="prefetch" href="/assets/js/28.299b51b7.js"><link rel="prefetch" href="/assets/js/29.8a219f6c.js"><link rel="prefetch" href="/assets/js/3.a1a84eb6.js"><link rel="prefetch" href="/assets/js/30.54290bec.js"><link rel="prefetch" href="/assets/js/31.9819af0f.js"><link rel="prefetch" href="/assets/js/32.9c389c42.js"><link rel="prefetch" href="/assets/js/33.79de17b9.js"><link rel="prefetch" href="/assets/js/34.bb0b26b0.js"><link rel="prefetch" href="/assets/js/35.9904bae8.js"><link rel="prefetch" href="/assets/js/36.44aaac4f.js"><link rel="prefetch" href="/assets/js/37.131b597f.js"><link rel="prefetch" href="/assets/js/38.ebcb833b.js"><link rel="prefetch" href="/assets/js/39.79e1e37a.js"><link rel="prefetch" href="/assets/js/4.26a9eb7c.js"><link rel="prefetch" href="/assets/js/40.1c1185c7.js"><link rel="prefetch" href="/assets/js/41.fc545d8b.js"><link rel="prefetch" href="/assets/js/42.3eb8581f.js"><link rel="prefetch" href="/assets/js/43.5453a8fe.js"><link rel="prefetch" href="/assets/js/44.64ead16e.js"><link rel="prefetch" href="/assets/js/45.0f435e43.js"><link rel="prefetch" href="/assets/js/46.227c1057.js"><link rel="prefetch" href="/assets/js/47.b2a7aeee.js"><link rel="prefetch" href="/assets/js/48.1817b996.js"><link rel="prefetch" href="/assets/js/49.a51f0c9b.js"><link rel="prefetch" href="/assets/js/5.5a46331c.js"><link rel="prefetch" href="/assets/js/50.30a6a213.js"><link rel="prefetch" href="/assets/js/51.8867731e.js"><link rel="prefetch" href="/assets/js/52.772ced2d.js"><link rel="prefetch" href="/assets/js/53.c0ae7746.js"><link rel="prefetch" href="/assets/js/54.ba0c2403.js"><link rel="prefetch" href="/assets/js/55.1106cae1.js"><link rel="prefetch" href="/assets/js/56.12110087.js"><link rel="prefetch" href="/assets/js/57.81998e70.js"><link rel="prefetch" href="/assets/js/58.aff03bef.js"><link rel="prefetch" href="/assets/js/59.1d98ab46.js"><link rel="prefetch" href="/assets/js/6.e909dcab.js"><link rel="prefetch" href="/assets/js/60.38642350.js"><link rel="prefetch" href="/assets/js/61.59be4099.js"><link rel="prefetch" href="/assets/js/62.98e17ab9.js"><link rel="prefetch" href="/assets/js/63.3932c9bd.js"><link rel="prefetch" href="/assets/js/64.bcb58d86.js"><link rel="prefetch" href="/assets/js/65.17133c15.js"><link rel="prefetch" href="/assets/js/66.80f3b45d.js"><link rel="prefetch" href="/assets/js/67.7a4599f1.js"><link rel="prefetch" href="/assets/js/68.fc69932e.js"><link rel="prefetch" href="/assets/js/69.3eef0350.js"><link rel="prefetch" href="/assets/js/7.5f599813.js"><link rel="prefetch" href="/assets/js/70.65eeaf4d.js"><link rel="prefetch" href="/assets/js/71.8504bee0.js"><link rel="prefetch" href="/assets/js/72.55522097.js"><link rel="prefetch" href="/assets/js/73.caf7f418.js"><link rel="prefetch" href="/assets/js/74.af5036ec.js"><link rel="prefetch" href="/assets/js/75.912f4493.js"><link rel="prefetch" href="/assets/js/76.e55f143d.js"><link rel="prefetch" href="/assets/js/77.592da1b5.js"><link rel="prefetch" href="/assets/js/78.47db6fe1.js"><link rel="prefetch" href="/assets/js/79.98634850.js"><link rel="prefetch" href="/assets/js/8.23c9f525.js"><link rel="prefetch" href="/assets/js/80.6e340b77.js"><link rel="prefetch" href="/assets/js/81.c74e88e5.js"><link rel="prefetch" href="/assets/js/82.b1db53ad.js"><link rel="prefetch" href="/assets/js/83.a3670661.js"><link rel="prefetch" href="/assets/js/84.4b3b6c92.js"><link rel="prefetch" href="/assets/js/85.cf86707f.js"><link rel="prefetch" href="/assets/js/86.397071f3.js"><link rel="prefetch" href="/assets/js/87.4a6d0f12.js"><link rel="prefetch" href="/assets/js/88.14c56b80.js"><link rel="prefetch" href="/assets/js/89.28509bba.js"><link rel="prefetch" href="/assets/js/9.3fda4311.js"><link rel="prefetch" href="/assets/js/90.62bb0d60.js"><link rel="prefetch" href="/assets/js/91.4a6d3fec.js"><link rel="prefetch" href="/assets/js/92.d139588b.js"><link rel="prefetch" href="/assets/js/93.ec9dd30d.js"><link rel="prefetch" href="/assets/js/94.863ffa57.js"><link rel="prefetch" href="/assets/js/95.510867e9.js"><link rel="prefetch" href="/assets/js/96.40f29924.js"><link rel="prefetch" href="/assets/js/97.b176b007.js"><link rel="prefetch" href="/assets/js/98.5b56e2e6.js"><link rel="prefetch" href="/assets/js/99.02baf0fd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.299a2460.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/EB-logo.png" alt="Scott の 博客" class="logo"> <span class="site-name can-hide">Scott の 博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="个人笔记" class="dropdown-title"><a href="/blog/" class="link-title">个人笔记</a> <span class="title" style="display:none;">个人笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/477256/" class="nav-link">Data Structure and Algorithm</a></li><li class="dropdown-item"><!----> <a href="/pages/c52bcc/" class="nav-link">Java</a></li><li class="dropdown-item"><!----> <a href="/pages/ec338e/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/pages/90bf17/" class="nav-link">Drafts</a></li><li class="dropdown-item"><!----> <a href="/pages/8f030c/" class="nav-link">C++</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>前端文章</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/8143cc480faf9a11/" class="nav-link">JavaScript</a></li></ul></li><li class="dropdown-item"><h4>学习笔记</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/javascript/" class="nav-link">《JavaScript教程》</a></li><li class="dropdown-subitem"><a href="/note/js/" class="nav-link">《JavaScript高级程序设计》</a></li><li class="dropdown-subitem"><a href="/note/vue/" class="nav-link">《Vue》</a></li><li class="dropdown-subitem"><a href="/note/react/" class="nav-link">《React》</a></li><li class="dropdown-subitem"><a href="/note/typescript-axios/" class="nav-link">《TypeScript 从零实现 axios》</a></li><li class="dropdown-subitem"><a href="/note/git/" class="nav-link">《Git》</a></li><li class="dropdown-subitem"><a href="/pages/51afd6/" class="nav-link">TypeScript</a></li><li class="dropdown-subitem"><a href="/pages/4643cd/" class="nav-link">JS设计模式总结</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg"> <div class="blogger-info"><h3>Scott</h3> <span>恋爱中</span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="个人笔记" class="dropdown-title"><a href="/blog/" class="link-title">个人笔记</a> <span class="title" style="display:none;">个人笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/477256/" class="nav-link">Data Structure and Algorithm</a></li><li class="dropdown-item"><!----> <a href="/pages/c52bcc/" class="nav-link">Java</a></li><li class="dropdown-item"><!----> <a href="/pages/ec338e/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/pages/90bf17/" class="nav-link">Drafts</a></li><li class="dropdown-item"><!----> <a href="/pages/8f030c/" class="nav-link">C++</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><a href="/web/" class="link-title">前端</a> <span class="title" style="display:none;">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>前端文章</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/8143cc480faf9a11/" class="nav-link">JavaScript</a></li></ul></li><li class="dropdown-item"><h4>学习笔记</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/javascript/" class="nav-link">《JavaScript教程》</a></li><li class="dropdown-subitem"><a href="/note/js/" class="nav-link">《JavaScript高级程序设计》</a></li><li class="dropdown-subitem"><a href="/note/vue/" class="nav-link">《Vue》</a></li><li class="dropdown-subitem"><a href="/note/react/" class="nav-link">《React》</a></li><li class="dropdown-subitem"><a href="/note/typescript-axios/" class="nav-link">《TypeScript 从零实现 axios》</a></li><li class="dropdown-subitem"><a href="/note/git/" class="nav-link">《Git》</a></li><li class="dropdown-subitem"><a href="/pages/51afd6/" class="nav-link">TypeScript</a></li><li class="dropdown-subitem"><a href="/pages/4643cd/" class="nav-link">JS设计模式总结</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="页面" class="dropdown-title"><a href="/ui/" class="link-title">页面</a> <span class="title" style="display:none;">页面</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/8309a5b876fc95e3/" class="nav-link">HTML</a></li><li class="dropdown-item"><!----> <a href="/pages/0a83b083bdf257cb/" class="nav-link">CSS</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><a href="/technology/" class="link-title">技术</a> <span class="title" style="display:none;">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/9a7ee40fc232253e/" class="nav-link">技术文档</a></li><li class="dropdown-item"><!----> <a href="/pages/4c778760be26d8b3/" class="nav-link">GitHub技巧</a></li><li class="dropdown-item"><!----> <a href="/pages/117708e0af7f0bd9/" class="nav-link">Nodejs</a></li><li class="dropdown-item"><!----> <a href="/pages/41f87d890d0a02af/" class="nav-link">博客搭建</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><a href="/more/" class="link-title">更多</a> <span class="title" style="display:none;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/f2a556/" class="nav-link">学习</a></li><li class="dropdown-item"><!----> <a href="/pages/aea6571b7a8bae86/" class="nav-link">面试</a></li><li class="dropdown-item"><!----> <a href="/pages/2d615df9a36a98ed/" class="nav-link">心情杂货</a></li><li class="dropdown-item"><!----> <a href="/pages/baaa02/" class="nav-link">实用技巧</a></li><li class="dropdown-item"><!----> <a href="/friends/" class="nav-link">友情链接</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div><div class="nav-item"><a href="/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Data Structure and Algorithm</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Java</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>c++</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/8f030c/" class="sidebar-link">C++基础入门</a></li><li><a href="/pages/b21f9a/" class="sidebar-link">通讯录管理系统</a></li><li><a href="/pages/b84f28/" class="sidebar-link">C++核心编程</a></li><li><a href="/pages/0e65a0/" aria-current="page" class="active sidebar-link">职工管理系统</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_1、管理系统需求" class="sidebar-link">1、管理系统需求</a></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_2、创建项目" class="sidebar-link">2、创建项目</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_2-1-创建项目" class="sidebar-link">2.1 创建项目</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_2-2-添加文件" class="sidebar-link">2.2 添加文件</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_3、创建管理类" class="sidebar-link">3、创建管理类</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_3-1创建文件" class="sidebar-link">3.1创建文件</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_3-2-头文件实现" class="sidebar-link">3.2 头文件实现</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_3-3-源文件实现" class="sidebar-link">3.3 源文件实现</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_4、菜单功能" class="sidebar-link">4、菜单功能</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_4-1-添加成员函数" class="sidebar-link">4.1 添加成员函数</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_4-2-菜单功能实现" class="sidebar-link">4.2 菜单功能实现</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_4-3-测试菜单功能" class="sidebar-link">4.3 测试菜单功能</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_5、退出功能" class="sidebar-link">5、退出功能</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_5-1-提供功能接口" class="sidebar-link">5.1  提供功能接口</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_5-2-实现退出功能" class="sidebar-link">5.2 实现退出功能</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_5-3测试功能" class="sidebar-link">5.3测试功能</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_6、创建职工类" class="sidebar-link">6、创建职工类</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_6-1-创建职工抽象类" class="sidebar-link">6.1 创建职工抽象类</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_6-2-创建普通员工类" class="sidebar-link">6.2 创建普通员工类</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_6-3-创建经理类" class="sidebar-link">6.3 创建经理类</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_6-4-创建老板类" class="sidebar-link">6.4 创建老板类</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_6-5-测试多态" class="sidebar-link">6.5 测试多态</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_7、添加职工" class="sidebar-link">7、添加职工</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_7-1-功能分析" class="sidebar-link">7.1 功能分析</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_7-2-功能实现" class="sidebar-link">7.2 功能实现</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_7-3-测试添加" class="sidebar-link">7.3 测试添加</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_8、文件交互-写文件" class="sidebar-link">8、文件交互 - 写文件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_8-1-设定文件路径" class="sidebar-link">8.1 设定文件路径</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_8-2-成员函数声明" class="sidebar-link">8.2 成员函数声明</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_8-3-保存文件功能实现" class="sidebar-link">8.3 保存文件功能实现</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_8-4-保存文件功能测试" class="sidebar-link">8.4 保存文件功能测试</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_9、文件交互-读文件" class="sidebar-link">9、文件交互 - 读文件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_9-1-文件未创建" class="sidebar-link">9.1 文件未创建</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_9-2-文件存在且数据为空" class="sidebar-link">9.2 文件存在且数据为空</a></li><li class="sidebar-sub-header level3"><a href="/pages/0e65a0/#_9-3-文件存在且保存职工数据" class="sidebar-link">9.3 文件存在且保存职工数据</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_10、显示职工" class="sidebar-link">10、显示职工</a></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_11、删除职工" class="sidebar-link">11、删除职工</a></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_12、修改职工" class="sidebar-link">12、修改职工</a></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_13、查找职工" class="sidebar-link">13、查找职工</a></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_14、排序" class="sidebar-link">14、排序</a></li><li class="sidebar-sub-header level2"><a href="/pages/0e65a0/#_15、清空文件" class="sidebar-link">15、清空文件</a></li></ul></li><li><a href="/pages/d8a666/" class="sidebar-link">C++提高编程</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>面试</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Bilibili_Java</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Python</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>All kinds of Drafts</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>High Integrity Information System</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>左神算法课</span> <span class="arrow right"></span></p> <!----></section></li></ul> <div class="sidebar-slot sidebar-slot-bottom"><!-- 正方形 -->
+      <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="3508773082"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script></div></aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/blog/#个人笔记" data-v-06225672>个人笔记</a></li><li data-v-06225672><a href="/blog/#c++" data-v-06225672>c++</a></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/Sunc4127" target="_blank" title="作者" class="beLink" data-v-06225672>Scott</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2019-01-17</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">职工管理系统<!----></h1> <div class="page-slot page-slot-top"><!-- 固定100% * 90px可显示，max-height:90px未见显示-->
+     <ins class="adsbygoogle"
+          style="display:inline-block;width:100%;max-height:90px"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="6625304284"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script></div> <div class="theme-vdoing-content content__default"><nav class="table-of-contents"><ol><li><a href="#%E8%81%8C%E5%B7%A5%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F"> 职工管理系统</a><ol><li><a href="#1%E3%80%81%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82"> 1、管理系统需求</a></li><li><a href="#2%E3%80%81%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE"> 2、创建项目</a><ol><li><a href="#2.1-%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE"> 2.1 创建项目</a></li><li><a href="#2.2-%E6%B7%BB%E5%8A%A0%E6%96%87%E4%BB%B6"> 2.2 添加文件</a></li></ol></li><li><a href="#3%E3%80%81%E5%88%9B%E5%BB%BA%E7%AE%A1%E7%90%86%E7%B1%BB"> 3、创建管理类</a><ol><li><a href="#3.1%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6"> 3.1创建文件</a></li><li><a href="#3.2-%E5%A4%B4%E6%96%87%E4%BB%B6%E5%AE%9E%E7%8E%B0"> 3.2 头文件实现</a></li><li><a href="#3.3-%E6%BA%90%E6%96%87%E4%BB%B6%E5%AE%9E%E7%8E%B0"> 3.3 源文件实现</a></li></ol></li><li><a href="#4%E3%80%81%E8%8F%9C%E5%8D%95%E5%8A%9F%E8%83%BD"> 4、菜单功能</a><ol><li><a href="#4.1-%E6%B7%BB%E5%8A%A0%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0"> 4.1 添加成员函数</a></li><li><a href="#4.2-%E8%8F%9C%E5%8D%95%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0"> 4.2 菜单功能实现</a></li><li><a href="#4.3-%E6%B5%8B%E8%AF%95%E8%8F%9C%E5%8D%95%E5%8A%9F%E8%83%BD"> 4.3 测试菜单功能</a></li></ol></li><li><a href="#5%E3%80%81%E9%80%80%E5%87%BA%E5%8A%9F%E8%83%BD"> 5、退出功能</a><ol><li><a href="#5.1-%E6%8F%90%E4%BE%9B%E5%8A%9F%E8%83%BD%E6%8E%A5%E5%8F%A3"> 5.1  提供功能接口</a></li><li><a href="#5.2-%E5%AE%9E%E7%8E%B0%E9%80%80%E5%87%BA%E5%8A%9F%E8%83%BD"> 5.2 实现退出功能</a></li><li><a href="#5.3%E6%B5%8B%E8%AF%95%E5%8A%9F%E8%83%BD"> 5.3测试功能</a></li></ol></li><li><a href="#6%E3%80%81%E5%88%9B%E5%BB%BA%E8%81%8C%E5%B7%A5%E7%B1%BB"> 6、创建职工类</a><ol><li><a href="#6.1-%E5%88%9B%E5%BB%BA%E8%81%8C%E5%B7%A5%E6%8A%BD%E8%B1%A1%E7%B1%BB"> 6.1 创建职工抽象类</a></li><li><a href="#6.2-%E5%88%9B%E5%BB%BA%E6%99%AE%E9%80%9A%E5%91%98%E5%B7%A5%E7%B1%BB"> 6.2 创建普通员工类</a></li><li><a href="#6.3-%E5%88%9B%E5%BB%BA%E7%BB%8F%E7%90%86%E7%B1%BB"> 6.3 创建经理类</a></li><li><a href="#6.4-%E5%88%9B%E5%BB%BA%E8%80%81%E6%9D%BF%E7%B1%BB"> 6.4 创建老板类</a></li><li><a href="#6.5-%E6%B5%8B%E8%AF%95%E5%A4%9A%E6%80%81"> 6.5 测试多态</a></li></ol></li><li><a href="#7%E3%80%81%E6%B7%BB%E5%8A%A0%E8%81%8C%E5%B7%A5"> 7、添加职工</a><ol><li><a href="#7.1-%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"> 7.1 功能分析</a></li><li><a href="#7.2-%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0"> 7.2 功能实现</a></li><li><a href="#7.3-%E6%B5%8B%E8%AF%95%E6%B7%BB%E5%8A%A0"> 7.3 测试添加</a></li></ol></li><li><a href="#8%E3%80%81%E6%96%87%E4%BB%B6%E4%BA%A4%E4%BA%92---%E5%86%99%E6%96%87%E4%BB%B6"> 8、文件交互 - 写文件</a><ol><li><a href="#8.1-%E8%AE%BE%E5%AE%9A%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84"> 8.1 设定文件路径</a></li><li><a href="#8.2-%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 8.2 成员函数声明</a></li><li><a href="#8.3-%E4%BF%9D%E5%AD%98%E6%96%87%E4%BB%B6%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0"> 8.3 保存文件功能实现</a></li><li><a href="#8.4-%E4%BF%9D%E5%AD%98%E6%96%87%E4%BB%B6%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95"> 8.4 保存文件功能测试</a></li></ol></li><li><a href="#9%E3%80%81%E6%96%87%E4%BB%B6%E4%BA%A4%E4%BA%92---%E8%AF%BB%E6%96%87%E4%BB%B6"> 9、文件交互 - 读文件</a><ol><li><a href="#9.1-%E6%96%87%E4%BB%B6%E6%9C%AA%E5%88%9B%E5%BB%BA"> 9.1 文件未创建</a></li><li><a href="#9.2-%E6%96%87%E4%BB%B6%E5%AD%98%E5%9C%A8%E4%B8%94%E6%95%B0%E6%8D%AE%E4%B8%BA%E7%A9%BA"> 9.2 文件存在且数据为空</a></li><li><a href="#9.3-%E6%96%87%E4%BB%B6%E5%AD%98%E5%9C%A8%E4%B8%94%E4%BF%9D%E5%AD%98%E8%81%8C%E5%B7%A5%E6%95%B0%E6%8D%AE"> 9.3 文件存在且保存职工数据</a><ol><li><a href="#9.3.1-%E8%8E%B7%E5%8F%96%E8%AE%B0%E5%BD%95%E7%9A%84%E8%81%8C%E5%B7%A5%E4%BA%BA%E6%95%B0"> 9.3.1 获取记录的职工人数</a></li><li><a href="#9.3.2-%E5%88%9D%E5%A7%8B%E5%8C%96%E6%95%B0%E7%BB%84"> 9.3.2 初始化数组</a></li></ol></li></ol></li><li><a href="#10%E3%80%81%E6%98%BE%E7%A4%BA%E8%81%8C%E5%B7%A5"> 10、显示职工</a><ol><li><a href="#10.1-%E6%98%BE%E7%A4%BA%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 10.1 显示职工函数声明</a></li><li><a href="#10.2-%E6%98%BE%E7%A4%BA%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 10.2 显示职工函数实现</a></li><li><a href="#10.3-%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BA%E8%81%8C%E5%B7%A5"> 10.3 测试显示职工</a></li></ol></li><li><a href="#11%E3%80%81%E5%88%A0%E9%99%A4%E8%81%8C%E5%B7%A5"> 11、删除职工</a><ol><li><a href="#11.1-%E5%88%A0%E9%99%A4%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 11.1 删除职工函数声明</a></li><li><a href="#11.2-%E8%81%8C%E5%B7%A5%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 11.2 职工是否存在函数声明</a></li><li><a href="#11.3-%E8%81%8C%E5%B7%A5%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 11.3 职工是否存在函数实现</a></li><li><a href="#11.4-%E5%88%A0%E9%99%A4%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 11.4 删除职工函数实现</a></li><li><a href="#11.5-%E6%B5%8B%E8%AF%95%E5%88%A0%E9%99%A4%E8%81%8C%E5%B7%A5"> 11.5 测试删除职工</a></li></ol></li><li><a href="#12%E3%80%81%E4%BF%AE%E6%94%B9%E8%81%8C%E5%B7%A5"> 12、修改职工</a><ol><li><a href="#12.1-%E4%BF%AE%E6%94%B9%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 12.1 修改职工函数声明</a></li><li><a href="#12.2-%E4%BF%AE%E6%94%B9%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 12.2 修改职工函数实现</a></li><li><a href="#12.3-%E6%B5%8B%E8%AF%95%E4%BF%AE%E6%94%B9%E8%81%8C%E5%B7%A5"> 12.3 测试修改职工</a></li></ol></li><li><a href="#13%E3%80%81%E6%9F%A5%E6%89%BE%E8%81%8C%E5%B7%A5"> 13、查找职工</a><ol><li><a href="#13.1-%E6%9F%A5%E6%89%BE%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 13.1 查找职工函数声明</a></li><li><a href="#13.2-%E6%9F%A5%E6%89%BE%E8%81%8C%E5%B7%A5%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 13.2 查找职工函数实现</a></li><li><a href="#13.3-%E6%B5%8B%E8%AF%95%E6%9F%A5%E6%89%BE%E8%81%8C%E5%B7%A5"> 13.3 测试查找职工</a></li></ol></li><li><a href="#14%E3%80%81%E6%8E%92%E5%BA%8F"> 14、排序</a><ol><li><a href="#14.1-%E6%8E%92%E5%BA%8F%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 14.1 排序函数声明</a></li><li><a href="#14.2-%E6%8E%92%E5%BA%8F%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 14.2 排序函数实现</a></li><li><a href="#14.3-%E6%B5%8B%E8%AF%95%E6%8E%92%E5%BA%8F%E5%8A%9F%E8%83%BD"> 14.3 测试排序功能</a></li></ol></li><li><a href="#15%E3%80%81%E6%B8%85%E7%A9%BA%E6%96%87%E4%BB%B6"> 15、清空文件</a><ol><li><a href="#15.1-%E6%B8%85%E7%A9%BA%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E"> 15.1 清空函数声明</a></li><li><a href="#15.2-%E6%B8%85%E7%A9%BA%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0"> 15.2 清空函数实现</a></li><li><a href="#15.3-%E6%B5%8B%E8%AF%95%E6%B8%85%E7%A9%BA%E6%96%87%E4%BB%B6"> 15.3 测试清空文件</a></li></ol></li></ol></li></ol></nav><h1 id="职工管理系统"><a href="#职工管理系统" class="header-anchor">#</a> 职工管理系统</h1> <h2 id="_1、管理系统需求"><a href="#_1、管理系统需求" class="header-anchor">#</a> 1、管理系统需求</h2> <p>职工管理系统可以用来管理公司内所有员工的信息</p> <p>本教程主要利用C++来实现一个基于多态的职工管理系统</p> <p>公司中职工分为三类：普通员工、经理、老板，显示信息时，需要显示职工编号、职工姓名、职工岗位、以及职责</p> <p>普通员工职责：完成经理交给的任务</p> <p>经理职责：完成老板交给的任务，并下发任务给员工</p> <p>老板职责：管理公司所有事务</p> <p>管理系统中需要实现的功能如下：</p> <ul><li>退出管理程序：退出当前管理系统</li></ul> <ul><li>增加职工信息：实现批量添加职工功能，将信息录入到文件中，职工信息为：职工编号、姓名、部门编号</li> <li>显示职工信息：显示公司内部所有职工的信息</li> <li>删除离职职工：按照编号删除指定的职工</li> <li>修改职工信息：按照编号修改职工个人信息</li> <li>查找职工信息：按照职工的编号或者职工的姓名进行查找相关的人员信息</li> <li>按照编号排序：按照职工编号，进行排序，排序规则由用户指定</li> <li>清空所有文档：清空文件中记录的所有职工信息 （清空前需要再次确认，防止误删）</li></ul> <p>系统界面效果图如下：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312038028.png" alt="1546511409198"></p> <p>需根据用户不同的选择，完成不同的功能！</p> <h2 id="_2、创建项目"><a href="#_2、创建项目" class="header-anchor">#</a> 2、创建项目</h2> <p>创建项目步骤如下：</p> <ul><li>创建新项目</li> <li>添加文件</li></ul> <h3 id="_2-1-创建项目"><a href="#_2-1-创建项目" class="header-anchor">#</a> 2.1 创建项目</h3> <p>打开vs2017后，点击创建新项目，创建新的C++项目</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312038413.png" alt="1544151201465"></p> <p>填写项目名称以及项目路径，点击确定</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312038183.png" alt="1546349209805"></p> <h3 id="_2-2-添加文件"><a href="#_2-2-添加文件" class="header-anchor">#</a> 2.2 添加文件</h3> <p>右键源文件，进行添加文件操作</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312038484.png" alt="1546349360960"></p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039665.png" alt="1546349421496"></p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039542.png" alt="1546349488752"></p> <p>至此，项目已创建完毕</p> <h2 id="_3、创建管理类"><a href="#_3、创建管理类" class="header-anchor">#</a> 3、创建管理类</h2> <p>​	管理类负责的内容如下：</p> <ul><li>与用户的沟通菜单界面</li> <li>对职工增删改查的操作</li> <li>与文件的读写交互</li></ul> <h3 id="_3-1创建文件"><a href="#_3-1创建文件" class="header-anchor">#</a> 3.1创建文件</h3> <p>在头文件和源文件的文件夹下分别创建workerManager.h 和 workerManager.cpp文件</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039392.png" alt="1546349904944"></p> <h3 id="_3-2-头文件实现"><a href="#_3-2-头文件实现" class="header-anchor">#</a> 3.2 头文件实现</h3> <p>在workerManager.h中设计管理类</p> <p>代码如下：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#pragma once
+#include&lt;iostream&gt;
+using namespace std;
+
+
+class WorkerManager
+{
+public:
+
+	//构造函数
+	WorkerManager();
+
+	//析构函数
+	~WorkerManager();
+
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="_3-3-源文件实现"><a href="#_3-3-源文件实现" class="header-anchor">#</a> 3.3 源文件实现</h3> <p>在workerManager.cpp中将构造和析构函数空实现补全</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#include &quot;workerManager.h&quot;
+
+WorkerManager::WorkerManager()
+{
+}
+
+WorkerManager::~WorkerManager()
+{
+}
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>至此职工管理类以创建完毕</p> <h2 id="_4、菜单功能"><a href="#_4、菜单功能" class="header-anchor">#</a> 4、菜单功能</h2> <p>功能描述：与用户的沟通界面</p> <h3 id="_4-1-添加成员函数"><a href="#_4-1-添加成员函数" class="header-anchor">#</a> 4.1 添加成员函数</h3> <p>在管理类workerManager.h中添加成员函数  <code>void Show_Menu();</code></p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039370.png" alt="1546351543942"></p> <h3 id="_4-2-菜单功能实现"><a href="#_4-2-菜单功能实现" class="header-anchor">#</a> 4.2 菜单功能实现</h3> <p>在管理类workerManager.cpp中实现  Show_Menu()函数</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>void WorkerManager::Show_Menu()
+{
+	cout &lt;&lt; &quot;********************************************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*********  欢迎使用职工管理系统！ **********&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  0.退出管理程序  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  1.增加职工信息  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  2.显示职工信息  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  3.删除离职职工  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  4.修改职工信息  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  5.查找职工信息  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  6.按照编号排序  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;*************  7.清空所有文档  *************&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;********************************************&quot; &lt;&lt; endl;
+	cout &lt;&lt; endl;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h3 id="_4-3-测试菜单功能"><a href="#_4-3-测试菜单功能" class="header-anchor">#</a> 4.3 测试菜单功能</h3> <p>在职工管理系统.cpp中测试菜单功能</p> <p>代码：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#include&lt;iostream&gt;
+using namespace std;
+
+// 引用 header file 
+#include &quot;workerManager.h&quot;
+
+int main() {
+
+    // 实例化管理者对象
+	WorkerManager wm;
+
+	wm.Show_Menu();
+
+	system(&quot;pause&quot;);
+
+	return 0;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>运行效果如图：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039851.png" alt="1546352771191"></p> <h2 id="_5、退出功能"><a href="#_5、退出功能" class="header-anchor">#</a> 5、退出功能</h2> <h3 id="_5-1-提供功能接口"><a href="#_5-1-提供功能接口" class="header-anchor">#</a> 5.1  提供功能接口</h3> <p>在main函数中提供分支选择，提供每个功能接口</p> <p>代码：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>int main() {
+
+	WorkerManager wm;
+	int choice = 0;
+	while (true)
+	{
+		//展示菜单
+		wm.Show_Menu();
+		cout &lt;&lt; &quot;请输入您的选择:&quot; &lt;&lt; endl;
+		cin &gt;&gt; choice;
+
+		switch (choice)
+		{
+		case 0: //退出系统
+			break;
+		case 1: //添加职工
+			break;
+		case 2: //显示职工
+			break;
+		case 3: //删除职工
+			break;
+		case 4: //修改职工
+			break;
+		case 5: //查找职工
+			break;
+		case 6: //排序职工
+			break;
+		case 7: //清空文件
+			break;
+		default:
+			system(&quot;cls&quot;);
+			break;
+		}
+	}
+
+	system(&quot;pause&quot;);
+	return 0;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><h3 id="_5-2-实现退出功能"><a href="#_5-2-实现退出功能" class="header-anchor">#</a> 5.2 实现退出功能</h3> <p>在workerManager.h中提供退出系统的成员函数 <code>void exitSystem();</code></p> <p>在workerManager.cpp中提供具体的功能实现</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>void WorkerManager::exitSystem()
+{
+	cout &lt;&lt; &quot;欢迎下次使用&quot; &lt;&lt; endl;
+	system(&quot;pause&quot;);
+	exit(0);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="_5-3测试功能"><a href="#_5-3测试功能" class="header-anchor">#</a> 5.3测试功能</h3> <p>在main函数分支 0  选项中，调用退出程序的接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039713.png" alt="1546353199424"></p> <p>运行测试效果如图：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039815.png" alt="1546353155490"></p> <h2 id="_6、创建职工类"><a href="#_6、创建职工类" class="header-anchor">#</a> 6、创建职工类</h2> <h3 id="_6-1-创建职工抽象类"><a href="#_6-1-创建职工抽象类" class="header-anchor">#</a> 6.1 创建职工抽象类</h3> <p>职工的分类为：普通员工、经理、老板</p> <p>将三种职工抽象到一个类（worker）中,利用多态管理不同职工种类</p> <p>职工的属性为：职工编号、职工姓名、职工所在部门编号</p> <p>职工的行为为：岗位职责信息描述，获取岗位名称</p> <p>头文件文件夹下  创建文件worker.h  文件并且添加如下代码：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#pragma once
+#include&lt;iostream&gt;
+#include&lt;string&gt;
+using namespace std;
+
+//职工抽象基类
+class Worker
+{
+public:
+
+	//显示个人信息
+	virtual void showInfo() = 0;
+	//获取岗位名称
+	virtual string getDeptName() = 0;
+
+	int m_Id; //职工编号
+	string m_Name; //职工姓名
+	int m_DeptId; //职工所在部门名称编号
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h3 id="_6-2-创建普通员工类"><a href="#_6-2-创建普通员工类" class="header-anchor">#</a> 6.2 创建普通员工类</h3> <p>普通员工类<strong>继承</strong>职工抽象类，并重写父类中纯虚函数</p> <p>在头文件和源文件的文件夹下分别创建employee.h 和 employee.cpp文件</p> <p>employee.h中代码如下：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#pragma once 
+#include&lt;iostream&gt;
+using namespace std;
+#include &quot;worker.h&quot;
+
+//员工类
+class Employee :public Worker
+{
+public:
+
+	//构造函数
+	Employee(int id, string name, int dId);
+
+	//显示个人信息
+	virtual void showInfo();
+
+	//获取职工岗位名称
+	virtual string getDeptName();
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><p>employee.cpp中代码如下：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#include &quot;employee.h&quot;
+
+Employee::Employee(int id, string name, int dId)
+{
+	this-&gt;m_Id = id;
+	this-&gt;m_Name = name;
+	this-&gt;m_DeptId = dId;
+}
+
+void Employee::showInfo()
+{
+	cout &lt;&lt; &quot;职工编号： &quot; &lt;&lt; this-&gt;m_Id
+		&lt;&lt; &quot; \t职工姓名： &quot; &lt;&lt; this-&gt;m_Name
+		&lt;&lt; &quot; \t岗位：&quot; &lt;&lt; this-&gt;getDeptName()
+		&lt;&lt; &quot; \t岗位职责：完成经理交给的任务&quot; &lt;&lt; endl;
+}
+
+
+string Employee::getDeptName()
+{
+	return string(&quot;员工&quot;);
+}
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h3 id="_6-3-创建经理类"><a href="#_6-3-创建经理类" class="header-anchor">#</a> 6.3 创建经理类</h3> <p>经理类<strong>继承</strong>职工抽象类，并重写父类中纯虚函数，和普通员工类似</p> <p>在头文件和源文件的文件夹下分别创建manager.h 和 manager.cpp文件</p> <p>manager.h中代码如下：</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>#pragma once
+#include&lt;iostream&gt;
+using namespace std;
+#include &quot;worker.h&quot;
+
+//经理类
+class Manager :public Worker
+{
+public:
+
+	Manager(int id, string name, int dId);
+
+	//显示个人信息
+	virtual void showInfo();
+
+	//获取职工岗位名称
+	virtual string getDeptName();
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>manager.cpp中代码如下：</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>#include &quot;manager.h&quot;
+
+Manager::Manager(int id, string name, int dId)
+{
+	this-&gt;m_Id = id;
+	this-&gt;m_Name = name;
+	this-&gt;m_DeptId = dId;
+
+}
+
+void Manager::showInfo()
+{
+	cout &lt;&lt; &quot;职工编号： &quot; &lt;&lt; this-&gt;m_Id
+		&lt;&lt; &quot; \t职工姓名： &quot; &lt;&lt; this-&gt;m_Name
+		&lt;&lt; &quot; \t岗位：&quot; &lt;&lt; this-&gt;getDeptName()
+		&lt;&lt; &quot; \t岗位职责：完成老板交给的任务,并下发任务给员工&quot; &lt;&lt; endl;
+}
+
+string Manager::getDeptName()
+{
+	return string(&quot;经理&quot;);
+}
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h3 id="_6-4-创建老板类"><a href="#_6-4-创建老板类" class="header-anchor">#</a> 6.4 创建老板类</h3> <p>老板类<strong>继承</strong>职工抽象类，并重写父类中纯虚函数，和普通员工类似</p> <p>在头文件和源文件的文件夹下分别创建boss.h 和 boss.cpp文件</p> <p>boss.h中代码如下：</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>#pragma once
+#include&lt;iostream&gt;
+using namespace std;
+#include &quot;worker.h&quot;
+
+//老板类
+class Boss :public Worker
+{
+public:
+
+	Boss(int id, string name, int dId);
+
+	//显示个人信息
+	virtual void showInfo();
+
+	//获取职工岗位名称
+	virtual string getDeptName();
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>boss.cpp中代码如下：</p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>#include &quot;boss.h&quot;
+
+Boss::Boss(int id, string name, int dId)
+{
+	this-&gt;m_Id = id;
+	this-&gt;m_Name = name;
+	this-&gt;m_DeptId = dId;
+
+}
+
+void Boss::showInfo()
+{
+	cout &lt;&lt; &quot;职工编号： &quot; &lt;&lt; this-&gt;m_Id
+		&lt;&lt; &quot; \t职工姓名： &quot; &lt;&lt; this-&gt;m_Name
+		&lt;&lt; &quot; \t岗位：&quot; &lt;&lt; this-&gt;getDeptName()
+		&lt;&lt; &quot; \t岗位职责：管理公司所有事务&quot; &lt;&lt; endl;
+}
+
+string Boss::getDeptName()
+{
+	return string(&quot;总裁&quot;);
+}
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div><h3 id="_6-5-测试多态"><a href="#_6-5-测试多态" class="header-anchor">#</a> 6.5 测试多态</h3> <p>在职工管理系统.cpp中添加测试函数，并且运行能够产生多态</p> <p>测试代码如下：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#include &quot;worker.h&quot;
+#include &quot;employee.h&quot;
+#include &quot;manager.h&quot;
+#include &quot;boss.h&quot;
+
+
+void test()
+{
+	Worker * worker = NULL;
+	worker = new Employee(1, &quot;张三&quot;, 1);
+	worker-&gt;showInfo();
+	delete worker;
+	
+	worker = new Manager(2, &quot;李四&quot;, 2);
+	worker-&gt;showInfo();
+	delete worker;
+
+	worker = new Boss(3, &quot;王五&quot;, 3);
+	worker-&gt;showInfo();
+	delete worker;
+}
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p>运行效果如图：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312039885.png" alt="1546398236081"></p> <p>测试成功后，测试代码可以注释保留，或者选择删除</p> <h2 id="_7、添加职工"><a href="#_7、添加职工" class="header-anchor">#</a> 7、添加职工</h2> <p>功能描述：批量添加职工，并且保存到文件中</p> <h3 id="_7-1-功能分析"><a href="#_7-1-功能分析" class="header-anchor">#</a> 7.1 功能分析</h3> <p>分析：</p> <p>用户在批量创建时，可能会创建不同种类的职工</p> <p>如果想将所有不同种类的员工都放入到一个数组中，可以将所有员工的指针维护到一个数组里</p> <p>如果想在程序中维护这个不定长度的数组，可以将数组创建到堆区，并利用Worker **的指针维护</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040363.png" alt="1546399491099"></p> <h3 id="_7-2-功能实现"><a href="#_7-2-功能实现" class="header-anchor">#</a> 7.2 功能实现</h3> <p>在WokerManager.h头文件中添加成员属性 代码：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//记录文件中的人数个数
+	int m_EmpNum;
+
+	//员工数组的指针
+	Worker ** m_EmpArray;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>在WorkerManager构造函数中初始化属性</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>WorkerManager::WorkerManager()
+{
+	//初始化人数
+	this-&gt;m_EmpNum = 0;
+
+	//初始化数组指针
+	this-&gt;m_EmpArray = NULL;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>在workerManager.h中添加成员函数</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//增加职工
+	void Add_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>workerManager.cpp中实现该函数</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//增加职工
+void WorkerManager::Add_Emp()
+{
+	cout &lt;&lt; &quot;请输入增加职工数量： &quot; &lt;&lt; endl;
+
+	int addNum = 0;
+	cin &gt;&gt; addNum;
+
+	if (addNum &gt; 0)
+	{
+		//计算新空间大小
+		int newSize = this-&gt;m_EmpNum + addNum;
+
+		//开辟新空间
+		Worker ** newSpace = new Worker*[newSize];
+
+		//将原空间下内容存放到新空间下
+		if (this-&gt;m_EmpArray != NULL)
+		{
+			for (int i = 0; i &lt; this-&gt;m_EmpNum; i++)
+			{
+				newSpace[i] = this-&gt;m_EmpArray[i];
+			}
+		}
+
+		//输入新数据
+		for (int i = 0; i &lt; addNum; i++)
+		{
+			int id;
+			string name;
+			int dSelect;
+
+			cout &lt;&lt; &quot;请输入第 &quot; &lt;&lt; i + 1 &lt;&lt; &quot; 个新职工编号：&quot; &lt;&lt; endl;
+			cin &gt;&gt; id;
+
+
+			cout &lt;&lt; &quot;请输入第 &quot; &lt;&lt; i + 1 &lt;&lt; &quot; 个新职工姓名：&quot; &lt;&lt; endl;
+			cin &gt;&gt; name;
+
+
+			cout &lt;&lt; &quot;请选择该职工的岗位：&quot; &lt;&lt; endl;
+			cout &lt;&lt; &quot;1、普通职工&quot; &lt;&lt; endl;
+			cout &lt;&lt; &quot;2、经理&quot; &lt;&lt; endl;
+			cout &lt;&lt; &quot;3、老板&quot; &lt;&lt; endl;
+			cin &gt;&gt; dSelect;
+
+
+			Worker * worker = NULL;
+			switch (dSelect)
+			{
+			case 1: //普通员工
+				worker = new Employee(id, name, 1);
+				break;
+			case 2: //经理
+				worker = new Manager(id, name, 2);
+				break;
+			case 3:  //老板
+				worker = new Boss(id, name, 3);
+				break;
+			default:
+				break;
+			}
+
+
+			newSpace[this-&gt;m_EmpNum + i] = worker;
+		}
+
+		//释放原有空间
+		delete[] this-&gt;m_EmpArray;
+
+		//更改新空间的指向
+		this-&gt;m_EmpArray = newSpace;
+
+		//更新新的个数
+		this-&gt;m_EmpNum = newSize;
+
+		//提示信息
+		cout &lt;&lt; &quot;成功添加&quot; &lt;&lt; addNum &lt;&lt; &quot;名新职工！&quot; &lt;&lt; endl;
+	}
+	else
+	{
+		cout &lt;&lt; &quot;输入有误&quot; &lt;&lt; endl;
+	}
+
+	system(&quot;pause&quot;);
+	system(&quot;cls&quot;);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br></div></div><p>在WorkerManager.cpp的析构函数中，释放堆区数据</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>WorkerManager::~WorkerManager()
+{
+	if (this-&gt;m_EmpArray != NULL)
+	{
+		delete[] this-&gt;m_EmpArray;
+	}
+}
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="_7-3-测试添加"><a href="#_7-3-测试添加" class="header-anchor">#</a> 7.3 测试添加</h3> <p>在main函数分支 1  选项中，调用添加职工接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040888.png" alt="1546401705277"></p> <p>效果如图：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040610.png" alt="1546401763461"></p> <p>至此，添加职工到程序中功能实现完毕</p> <h2 id="_8、文件交互-写文件"><a href="#_8、文件交互-写文件" class="header-anchor">#</a> 8、文件交互 - 写文件</h2> <p>功能描述：对文件进行读写</p> <p>​	在上一个添加功能中，我们只是将所有的数据添加到了内存中，一旦程序结束就无法保存了</p> <p>​	因此文件管理类中需要一个与文件进行交互的功能，对于文件进行读写操作</p> <h3 id="_8-1-设定文件路径"><a href="#_8-1-设定文件路径" class="header-anchor">#</a> 8.1 设定文件路径</h3> <p>首先我们将文件路径，在workerManager.h中添加宏常量,并且包含头文件 fstream</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>#include &lt;fstream&gt;
+#define  FILENAME &quot;empFile.txt&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="_8-2-成员函数声明"><a href="#_8-2-成员函数声明" class="header-anchor">#</a> 8.2 成员函数声明</h3> <p>在workerManager.h中类里添加成员函数 <code>void save()</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//保存文件
+void save();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="_8-3-保存文件功能实现"><a href="#_8-3-保存文件功能实现" class="header-anchor">#</a> 8.3 保存文件功能实现</h3> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>void WorkerManager::save()
+{
+	ofstream ofs;
+	ofs.open(FILENAME, ios::out); // 用输出的方式打开文件 -- 写文件
+
+
+	for (int i = 0; i &lt; this-&gt;m_EmpNum; i++)
+	{
+		ofs &lt;&lt; this-&gt;m_EmpArray[i]-&gt;m_Id &lt;&lt; &quot; &quot; 
+			&lt;&lt; this-&gt;m_EmpArray[i]-&gt;m_Name &lt;&lt; &quot; &quot; 
+			&lt;&lt; this-&gt;m_EmpArray[i]-&gt;m_DeptId &lt;&lt; endl;
+	}
+
+	ofs.close();
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h3 id="_8-4-保存文件功能测试"><a href="#_8-4-保存文件功能测试" class="header-anchor">#</a> 8.4 保存文件功能测试</h3> <p>在添加职工功能中添加成功后添加保存文件函数</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040576.png" alt="1546432469465"></p> <p>再次运行代码，添加职工</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040185.png" alt="1546401763461"></p> <p>同级目录下多出文件，并且保存了添加的信息</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040492.png" alt="1546432343078"></p> <h2 id="_9、文件交互-读文件"><a href="#_9、文件交互-读文件" class="header-anchor">#</a> 9、文件交互 - 读文件</h2> <p>功能描述：将文件中的内容读取到程序中</p> <p>虽然我们实现了添加职工后保存到文件的操作，但是每次开始运行程序，并没有将文件中数据读取到程序中</p> <p>而我们的程序功能中还有清空文件的需求</p> <p>因此构造函数初始化数据的情况分为三种</p> <ol><li>第一次使用，文件未创建</li> <li>文件存在，但是数据被用户清空</li> <li>文件存在，并且保存职工的所有数据</li></ol> <h3 id="_9-1-文件未创建"><a href="#_9-1-文件未创建" class="header-anchor">#</a> 9.1 文件未创建</h3> <p>在workerManager.h中添加新的成员属性 m_FileIsEmpty标志文件是否为空</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//标志文件是否为空
+	bool m_FileIsEmpty;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>修改WorkerManager.cpp中构造函数代码</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>WorkerManager::WorkerManager()
+{
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+
+	//文件不存在情况
+	if (!ifs.is_open())
+	{
+		cout &lt;&lt; &quot;文件不存在&quot; &lt;&lt; endl; //测试输出
+		this-&gt;m_EmpNum = 0;  //初始化人数
+		this-&gt;m_FileIsEmpty = true; //初始化文件为空标志
+		this-&gt;m_EmpArray = NULL; //初始化数组
+		ifs.close(); //关闭文件
+		return;
+	}
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p>删除文件后，测试文件不存在时初始化数据功能</p> <h3 id="_9-2-文件存在且数据为空"><a href="#_9-2-文件存在且数据为空" class="header-anchor">#</a> 9.2 文件存在且数据为空</h3> <p>在workerManager.cpp中的构造函数追加代码：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//文件存在，并且没有记录
+	char ch;
+	ifs &gt;&gt; ch; // 读走一个char，再判断 file 是否为空
+	if (ifs.eof())
+	{
+		cout &lt;&lt; &quot;文件为空!&quot; &lt;&lt; endl;
+		this-&gt;m_EmpNum = 0;
+		this-&gt;m_FileIsEmpty = true;
+		this-&gt;m_EmpArray = NULL;
+		ifs.close();
+		return;
+	}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>追加代码位置如图：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040405.png" alt="1546435197575"></p> <p>将文件创建后清空文件内容，并测试该情况下初始化功能</p> <p>我们发现文件不存在或者为空清空 m_FileIsEmpty 判断文件是否为空的标志都为真，那何时为假？</p> <p>成功添加职工后，应该更改文件不为空的标志</p> <p>在<code>void WorkerManager::Add_Emp()</code>成员函数中添加：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>		//更新职工不为空标志
+		this-&gt;m_FileIsEmpty = false;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040650.png" alt="1546656256176"></p> <h3 id="_9-3-文件存在且保存职工数据"><a href="#_9-3-文件存在且保存职工数据" class="header-anchor">#</a> 9.3 文件存在且保存职工数据</h3> <h4 id="_9-3-1-获取记录的职工人数"><a href="#_9-3-1-获取记录的职工人数" class="header-anchor">#</a> 9.3.1 获取记录的职工人数</h4> <p>在workerManager.h中添加成员函数 <code>int get_EmpNum();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//统计人数
+	int get_EmpNum();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>workerManager.cpp中实现</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>int WorkerManager::get_EmpNum()
+{
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+
+	int id;
+	string name;
+	int dId;
+
+	int num = 0;
+
+	while (ifs &gt;&gt; id &amp;&amp; ifs &gt;&gt; name &amp;&amp; ifs &gt;&gt; dId)
+	{
+        //记录人数
+		num++;
+	}
+	ifs.close();
+
+	return num;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><p>在workerManager.cpp构造函数中继续追加代码：</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	int num =  this-&gt;get_EmpNum();
+	cout &lt;&lt; &quot;职工个数为：&quot; &lt;&lt; num &lt;&lt; endl;  //测试代码
+	this-&gt;m_EmpNum = num;  //更新成员属性 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>手动添加一些职工数据，测试获取职工数量函数</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040934.png" alt="1546436429055"></p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040887.png" alt="1546436385793"></p> <h4 id="_9-3-2-初始化数组"><a href="#_9-3-2-初始化数组" class="header-anchor">#</a> 9.3.2 初始化数组</h4> <p>根据职工的数据以及职工数据，初始化workerManager中的Worker ** m_EmpArray 指针</p> <p>在WorkerManager.h中添加成员函数  <code>void init_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//初始化员工
+	void init_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>在WorkerManager.cpp中实现</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>void WorkerManager::init_Emp()
+{
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+
+	int id;
+	string name;
+	int dId;
+	
+	int index = 0;
+	while (ifs &gt;&gt; id &amp;&amp; ifs &gt;&gt; name &amp;&amp; ifs &gt;&gt; dId)
+	{
+		Worker * worker = NULL;
+		//根据不同的部门Id创建不同对象
+		if (dId == 1)  // 1普通员工
+		{
+			worker = new Employee(id, name, dId);
+		}
+		else if (dId == 2) //2经理
+		{
+			worker = new Manager(id, name, dId);
+		}
+		else //总裁
+		{
+			worker = new Boss(id, name, dId);
+		}
+		//存放在数组中
+		this-&gt;m_EmpArray[index] = worker;
+		index++;
+	}
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br></div></div><p>在workerManager.cpp构造函数中追加代码</p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//根据职工数创建数组
+	this-&gt;m_EmpArray = new Worker *[this-&gt;m_EmpNum];
+	//初始化职工
+	init_Emp();
+
+	//测试代码
+	for (int i = 0; i &lt; m_EmpNum; i++)
+	{
+		cout &lt;&lt; &quot;职工号： &quot; &lt;&lt; this-&gt;m_EmpArray[i]-&gt;m_Id
+			&lt;&lt; &quot; 职工姓名： &quot; &lt;&lt; this-&gt;m_EmpArray[i]-&gt;m_Name
+			&lt;&lt; &quot; 部门编号： &quot; &lt;&lt; this-&gt;m_EmpArray[i]-&gt;m_DeptId &lt;&lt; endl;
+	}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>运行程序，测试从文件中获取的数据</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312040648.png" alt="1546436938152"></p> <p>至此初始化数据功能完毕，测试代码可以注释或删除掉！</p> <h2 id="_10、显示职工"><a href="#_10、显示职工" class="header-anchor">#</a> 10、显示职工</h2> <p>功能描述：显示当前所有职工信息</p> <h4 id="_10-1-显示职工函数声明"><a href="#_10-1-显示职工函数声明" class="header-anchor">#</a> 10.1 显示职工函数声明</h4> <p>在workerManager.h中添加成员函数  <code>void Show_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//显示职工
+	void Show_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_10-2-显示职工函数实现"><a href="#_10-2-显示职工函数实现" class="header-anchor">#</a> 10.2 显示职工函数实现</h4> <p>在workerManager.cpp中实现成员函数 <code>void Show_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//显示职工
+void WorkerManager::Show_Emp()
+{
+	if (this-&gt;m_FileIsEmpty)
+	{
+		cout &lt;&lt; &quot;文件不存在或记录为空！&quot; &lt;&lt; endl;
+	}
+	else
+	{
+		for (int i = 0; i &lt; m_EmpNum; i++)
+		{
+			//利用多态调用接口
+			this-&gt;m_EmpArray[i]-&gt;showInfo();
+		}
+	}
+
+	system(&quot;pause&quot;);
+	system(&quot;cls&quot;);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h4 id="_10-3-测试显示职工"><a href="#_10-3-测试显示职工" class="header-anchor">#</a> 10.3 测试显示职工</h4> <p>在main函数分支 2  选项中，调用显示职工接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041510.png" alt="1546497336465"></p> <p>测试时分别测试 文件为空和文件不为空两种情况</p> <p>测试效果：</p> <p>测试1-文件不存在或者为空情况</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041420.png" alt="1546497082135"></p> <p>测试2 - 文件存在且有记录情况</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043632.png" alt="1546496947671"></p> <p>测试完毕，至此，显示所有职工信息功能实现</p> <h2 id="_11、删除职工"><a href="#_11、删除职工" class="header-anchor">#</a> 11、删除职工</h2> <p>功能描述：按照职工的编号进行删除职工操作</p> <h4 id="_11-1-删除职工函数声明"><a href="#_11-1-删除职工函数声明" class="header-anchor">#</a> 11.1 删除职工函数声明</h4> <p>在workerManager.h中添加成员函数  <code>void Del_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//删除职工
+	void Del_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_11-2-职工是否存在函数声明"><a href="#_11-2-职工是否存在函数声明" class="header-anchor">#</a> 11.2 职工是否存在函数声明</h4> <p>很多功能都需要用到根据职工是否存在来进行操作如：删除职工、修改职工、查找职工</p> <p>因此添加该公告函数，以便后续调用</p> <p>在workerManager.h中添加成员函数  <code>int IsExist(int id);</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//按照职工编号判断职工是否存在,若存在返回职工在数组中位置，不存在返回-1
+	int IsExist(int id);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_11-3-职工是否存在函数实现"><a href="#_11-3-职工是否存在函数实现" class="header-anchor">#</a> 11.3 职工是否存在函数实现</h4> <p>在workerManager.cpp中实现成员函数 <code>int IsExist(int id);</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>int WorkerManager::IsExist(int id)
+{
+	int index = -1;
+
+	for (int i = 0; i &lt; this-&gt;m_EmpNum; i++)
+	{
+		if (this-&gt;m_EmpArray[i]-&gt;m_Id == id)
+		{
+			index = i;
+
+			break;
+		}
+	}
+
+	return index;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h4 id="_11-4-删除职工函数实现"><a href="#_11-4-删除职工函数实现" class="header-anchor">#</a> 11.4 删除职工函数实现</h4> <p>在workerManager.cpp中实现成员函数 <code>void Del_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//删除职工
+void WorkerManager::Del_Emp()
+{
+	if (this-&gt;m_FileIsEmpty)
+	{
+		cout &lt;&lt; &quot;文件不存在或记录为空！&quot; &lt;&lt; endl;
+	}
+	else
+	{
+		//按职工编号删除
+		cout &lt;&lt; &quot;请输入想要删除的职工号：&quot; &lt;&lt; endl;
+		int id = 0;
+		cin &gt;&gt; id;
+
+		int index = this-&gt;IsExist(id);
+
+		if (index != -1)  //说明index上位置数据需要删除
+		{
+			for (int i = index; i &lt; this-&gt;m_EmpNum - 1; i++)
+			{
+				this-&gt;m_EmpArray[i] = this-&gt;m_EmpArray[i + 1];
+			}
+			this-&gt;m_EmpNum--;
+
+			this-&gt;save(); //删除后数据同步到文件中
+			cout &lt;&lt; &quot;删除成功！&quot; &lt;&lt; endl;
+		}
+		else
+		{
+			cout &lt;&lt; &quot;删除失败，未找到该职工&quot; &lt;&lt; endl;
+		}
+	}
+	
+	system(&quot;pause&quot;);
+	system(&quot;cls&quot;);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><h4 id="_11-5-测试删除职工"><a href="#_11-5-测试删除职工" class="header-anchor">#</a> 11.5 测试删除职工</h4> <p>在main函数分支 3  选项中，调用删除职工接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041957.png" alt="1546502698622"></p> <p>测试1 - 删除不存在职工情况</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041287.png" alt="1546500324196"></p> <p>测试2 - 删除存在的职工情况</p> <p>删除成功提示图：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041293.png" alt="1546500350526"></p> <p>再次显示所有职工信息，确保已经删除</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041669.png" alt="1546500361889"></p> <p>查看文件中信息，再次核实员工已被完全删除</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041589.png" alt="1546500383570"></p> <p>至此，删除职工功能实现完毕！</p> <h2 id="_12、修改职工"><a href="#_12、修改职工" class="header-anchor">#</a> 12、修改职工</h2> <p>功能描述：能够按照职工的编号对职工信息进行修改并保存</p> <h4 id="_12-1-修改职工函数声明"><a href="#_12-1-修改职工函数声明" class="header-anchor">#</a> 12.1 修改职工函数声明</h4> <p>在workerManager.h中添加成员函数  <code>void Mod_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//修改职工
+	void Mod_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_12-2-修改职工函数实现"><a href="#_12-2-修改职工函数实现" class="header-anchor">#</a> 12.2 修改职工函数实现</h4> <p>在workerManager.cpp中实现成员函数 <code>void Mod_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//修改职工
+void WorkerManager::Mod_Emp()
+{
+	if (this-&gt;m_FileIsEmpty)
+	{
+		cout &lt;&lt; &quot;文件不存在或记录为空！&quot; &lt;&lt; endl;
+	}
+	else
+	{
+		cout &lt;&lt; &quot;请输入修改职工的编号：&quot; &lt;&lt; endl;
+		int id;
+		cin &gt;&gt; id;
+
+		int ret = this-&gt;IsExist(id);
+		if (ret != -1)
+		{ 
+			//查找到编号的职工
+
+			delete this-&gt;m_EmpArray[ret];
+			
+			int newId = 0;
+			string newName = &quot;&quot;;
+			int dSelect = 0;
+
+			cout &lt;&lt; &quot;查到： &quot; &lt;&lt; id &lt;&lt; &quot;号职工，请输入新职工号： &quot; &lt;&lt; endl;
+			cin &gt;&gt; newId;
+
+			cout &lt;&lt; &quot;请输入新姓名： &quot; &lt;&lt; endl;
+			cin &gt;&gt; newName;
+
+			cout &lt;&lt; &quot;请输入岗位： &quot; &lt;&lt; endl;
+			cout &lt;&lt; &quot;1、普通职工&quot; &lt;&lt; endl;
+			cout &lt;&lt; &quot;2、经理&quot; &lt;&lt; endl;
+			cout &lt;&lt; &quot;3、老板&quot; &lt;&lt; endl;
+			cin &gt;&gt; dSelect;
+
+			Worker * worker = NULL;
+			switch (dSelect)
+			{
+			case1:
+				worker = new Employee(newId, newName, dSelect);
+				break;
+			case2:
+				worker = new Manager(newId, newName, dSelect);
+				break;
+			case 3:
+				worker = new Boss(newId, newName, dSelect);
+				break;
+			default:
+				break;
+			}
+
+			//更改数据 到数组中
+			this-&gt;m_EmpArray[ret]= worker;
+			
+			cout &lt;&lt; &quot;修改成功！&quot; &lt;&lt; endl;
+
+			//保存到文件中
+			this-&gt;save();
+		}
+		else
+		{
+			cout &lt;&lt; &quot;修改失败，查无此人&quot; &lt;&lt; endl;
+		}
+	}
+
+	//按任意键 清屏
+	system(&quot;pause&quot;);
+	system(&quot;cls&quot;);
+}
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br></div></div><h4 id="_12-3-测试修改职工"><a href="#_12-3-测试修改职工" class="header-anchor">#</a> 12.3 测试修改职工</h4> <p>在main函数分支 4  选项中，调用修改职工接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041069.png" alt="1546502651922"></p> <p>测试1 - 修改不存在职工情况</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041898.png" alt="1546502759643"></p> <p>测试2 - 修改存在职工情况，例如将职工 &quot;李四&quot; 改为 &quot;赵四&quot;</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312044048.png" alt="1546502830350"></p> <p>修改后再次查看所有职工信息，并确认修改成功</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312041015.png" alt="1546502865443"></p> <p>再次确认文件中信息也同步更新</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042178.png" alt="1546502898653"></p> <p>至此，修改职工功能已实现！</p> <h2 id="_13、查找职工"><a href="#_13、查找职工" class="header-anchor">#</a> 13、查找职工</h2> <p>功能描述：提供两种查找职工方式，一种按照职工编号，一种按照职工姓名</p> <h4 id="_13-1-查找职工函数声明"><a href="#_13-1-查找职工函数声明" class="header-anchor">#</a> 13.1 查找职工函数声明</h4> <p>在workerManager.h中添加成员函数  <code>void Find_Emp();</code></p> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>	//查找职工
+	void Find_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_13-2-查找职工函数实现"><a href="#_13-2-查找职工函数实现" class="header-anchor">#</a> 13.2 查找职工函数实现</h4> <p>在workerManager.cpp中实现成员函数 <code>void Find_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//查找职工
+void WorkerManager::Find_Emp()
+{
+	if (this-&gt;m_FileIsEmpty)
+	{
+		cout &lt;&lt; &quot;文件不存在或记录为空！&quot; &lt;&lt; endl;
+	}
+	else
+	{
+		cout &lt;&lt; &quot;请输入查找的方式：&quot; &lt;&lt; endl;
+		cout &lt;&lt; &quot;1、按职工编号查找&quot; &lt;&lt; endl;
+		cout &lt;&lt; &quot;2、按姓名查找&quot; &lt;&lt; endl;
+
+		int select = 0;
+		cin &gt;&gt; select;
+
+
+		if (select == 1) //按职工号查找
+		{
+			int id;
+			cout &lt;&lt; &quot;请输入查找的职工编号：&quot; &lt;&lt; endl;
+			cin &gt;&gt; id;
+
+			int ret = IsExist(id);
+			if (ret != -1)
+			{
+				cout &lt;&lt; &quot;查找成功！该职工信息如下：&quot; &lt;&lt; endl;
+				this-&gt;m_EmpArray[ret]-&gt;showInfo();
+			}
+			else
+			{
+				cout &lt;&lt; &quot;查找失败，查无此人&quot; &lt;&lt; endl;
+			}
+		}
+		else if(select == 2) //按姓名查找
+		{
+			string name;
+			cout &lt;&lt; &quot;请输入查找的姓名：&quot; &lt;&lt; endl;
+			cin &gt;&gt; name;
+
+			bool flag = false;  //查找到的标志
+			for (int i = 0; i &lt; m_EmpNum; i++)
+			{
+				if (m_EmpArray[i]-&gt;m_Name == name)
+				{
+					cout &lt;&lt; &quot;查找成功,职工编号为：&quot;
+                           &lt;&lt; m_EmpArray[i]-&gt;m_Id
+                           &lt;&lt; &quot; 号的信息如下：&quot; &lt;&lt; endl;
+					
+					flag = true;
+
+					this-&gt;m_EmpArray[i]-&gt;showInfo();
+				}
+			}
+			if (flag == false)
+			{
+				//查无此人
+				cout &lt;&lt; &quot;查找失败，查无此人&quot; &lt;&lt; endl;
+			}
+		}
+		else
+		{
+			cout &lt;&lt; &quot;输入选项有误&quot; &lt;&lt; endl;
+		}
+	}
+
+
+	system(&quot;pause&quot;);
+	system(&quot;cls&quot;);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br></div></div><h4 id="_13-3-测试查找职工"><a href="#_13-3-测试查找职工" class="header-anchor">#</a> 13.3 测试查找职工</h4> <p>在main函数分支 5  选项中，调用查找职工接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042249.png" alt="1546504714318"></p> <p>测试1 - 按照职工编号查找 - 查找不存在职工</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042272.png" alt="1546504767229"></p> <p>测试2 - 按照职工编号查找 -  查找存在职工</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042237.png" alt="1546505046521"></p> <p>测试3 - 按照职工姓名查找 - 查找不存在职工</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042499.png" alt="1546505115610"></p> <p>测试4 - 按照职工姓名查找 - 查找存在职工（如果出现重名，也一并显示，在文件中可以添加重名职工）</p> <p>例如 添加两个王五的职工，然后按照姓名查找王五</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042081.png" alt="1546507850441"></p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312042555.png" alt="1546507760284"></p> <p>至此，查找职工功能实现完毕！</p> <h2 id="_14、排序"><a href="#_14、排序" class="header-anchor">#</a> 14、排序</h2> <p>功能描述：按照职工编号进行排序，排序的顺序由用户指定</p> <h4 id="_14-1-排序函数声明"><a href="#_14-1-排序函数声明" class="header-anchor">#</a> 14.1 排序函数声明</h4> <p>在workerManager.h中添加成员函数  <code>void Sort_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//排序职工
+	void Sort_Emp();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_14-2-排序函数实现"><a href="#_14-2-排序函数实现" class="header-anchor">#</a> 14.2 排序函数实现</h4> <p>在workerManager.cpp中实现成员函数 <code>void Sort_Emp();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//排序职工
+void WorkerManager::Sort_Emp()
+{
+	if (this-&gt;m_FileIsEmpty)
+	{
+		cout &lt;&lt; &quot;文件不存在或记录为空！&quot; &lt;&lt; endl;
+		system(&quot;pause&quot;);
+		system(&quot;cls&quot;);
+	}
+	else
+	{
+		cout &lt;&lt; &quot;请选择排序方式： &quot; &lt;&lt; endl;
+		cout &lt;&lt; &quot;1、按职工号进行升序&quot; &lt;&lt; endl;
+		cout &lt;&lt; &quot;2、按职工号进行降序&quot; &lt;&lt; endl;
+
+		int select = 0;
+		cin &gt;&gt; select;
+
+
+		for (int i = 0; i &lt; m_EmpNum; i++)
+		{
+			int minOrMax = i;
+			for (int j = i + 1; j &lt; m_EmpNum; j++)
+			{
+				if (select == 1) //升序
+				{
+					if (m_EmpArray[minOrMax]-&gt;m_Id &gt; m_EmpArray[j]-&gt;m_Id)
+					{
+						minOrMax = j;
+					}
+				}
+				else  //降序
+				{
+					if (m_EmpArray[minOrMax]-&gt;m_Id &lt; m_EmpArray[j]-&gt;m_Id)
+					{
+						minOrMax = j;
+					}
+				}
+			}
+
+			if (i != minOrMax)
+			{
+				Worker * temp = m_EmpArray[i];
+				m_EmpArray[i] = m_EmpArray[minOrMax];
+				m_EmpArray[minOrMax] = temp;
+			}
+
+		}
+
+		cout &lt;&lt; &quot;排序成功,排序后结果为：&quot; &lt;&lt; endl;
+		this-&gt;save();
+		this-&gt;Show_Emp();
+	}
+
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br></div></div><h4 id="_14-3-测试排序功能"><a href="#_14-3-测试排序功能" class="header-anchor">#</a> 14.3 测试排序功能</h4> <p>在main函数分支 6  选项中，调用排序职工接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043248.png" alt="1546510145181"></p> <p>测试：</p> <p>首先我们添加一些职工，序号是无序的，例如：</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043381.png" alt="1546658169987"></p> <p>测试 - 升序排序</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043914.png" alt="1546658190479"></p> <p>文件同步更新</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043406.png" alt="1546658273581"></p> <p>测试 - 降序排序</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043617.png" alt="1546658288936"></p> <p>文件同步更新</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312044518.png" alt="1546658313704"></p> <p>至此，职工按照编号排序的功能实现完毕！</p> <h2 id="_15、清空文件"><a href="#_15、清空文件" class="header-anchor">#</a> 15、清空文件</h2> <p>功能描述：将文件中记录数据清空</p> <h4 id="_15-1-清空函数声明"><a href="#_15-1-清空函数声明" class="header-anchor">#</a> 15.1 清空函数声明</h4> <p>在workerManager.h中添加成员函数  <code>void Clean_File();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>	//清空文件
+	void Clean_File();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_15-2-清空函数实现"><a href="#_15-2-清空函数实现" class="header-anchor">#</a> 15.2 清空函数实现</h4> <p>在workerManager.cpp中实现员函数 <code>void Clean_File();</code></p> <div class="language-C++ line-numbers-mode"><pre class="language-text"><code>//清空文件
+void WorkerManager::Clean_File()
+{
+	cout &lt;&lt; &quot;确认清空？&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;1、确认&quot; &lt;&lt; endl;
+	cout &lt;&lt; &quot;2、返回&quot; &lt;&lt; endl;
+
+	int select = 0;
+	cin &gt;&gt; select;
+
+	if (select == 1)
+	{
+		//打开模式 ios::trunc 如果存在删除文件并重新创建
+		ofstream ofs(FILENAME, ios::trunc);
+		ofs.close();
+
+		if (this-&gt;m_EmpArray != NULL)
+		{
+            for (int i = 0; i &lt; this-&gt;m_EmpNum; i++)
+			{
+				if (this-&gt;m_EmpArray[i] != NULL)
+				{
+					delete this-&gt;m_EmpArray[i];
+				}
+			}
+			this-&gt;m_EmpNum = 0;
+			delete[] this-&gt;m_EmpArray;
+			this-&gt;m_EmpArray = NULL;
+			this-&gt;m_FileIsEmpty = true;
+		}
+		cout &lt;&lt; &quot;清空成功！&quot; &lt;&lt; endl;
+	}
+
+	system(&quot;pause&quot;);
+	system(&quot;cls&quot;);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><h4 id="_15-3-测试清空文件"><a href="#_15-3-测试清空文件" class="header-anchor">#</a> 15.3 测试清空文件</h4> <p>在main函数分支 7  选项中，调用清空文件接口</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043084.png" alt="1546511085541"></p> <p>测试：确认清空文件</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043216.png" alt="1546510976745"></p> <p>再次查看文件中数据，记录已为空</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043044.png" alt="1546510994196"></p> <p>打开文件，里面数据已确保清空，该功能需要慎用！</p> <p><img src="https://cdn.jsdelivr.net/gh/Sunc4127/image-hosting/202208312043762.png" alt="1546511018517"></p> <p>随着清空文件功能实现，本案例制作完毕  ^ _ ^</p></div></div> <div class="page-slot page-slot-bottom"><!-- 横向自适应 -->
+      <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="6620245489"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script></div> <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2022/12/04, 16:55:22</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/b84f28/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">C++核心编程</div></a> <a href="/pages/d8a666/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">C++提高编程</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/pages/b84f28/" class="prev">C++核心编程</a></span> <span class="next"><a href="/pages/d8a666/">C++提高编程</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/2d8f39/"><div>
+            day01-Java基础语法
+            <!----></div></a> <span class="date">08-31</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/2b9bee/"><div>
+            1
+            <!----></div></a> <span class="date">08-29</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/bb0c5b/"><div>
+            路线
+            <!----></div></a> <span class="date">08-01</span></dt></dl> <dl><dd></dd> <dt><a href="/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="mailto:894072666@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/xugaoyi" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2019-2022
+    <span>Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a></span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <div class="custom-html-window custom-html-window-rb" style="display:;"><div class="custom-wrapper"><span class="close-but">×</span> <div><!-- 固定160*160px -->
+      <ins class="adsbygoogle"
+          style="display:inline-block;max-width:160px;max-height:160px"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="8377369658"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+      </div></div></div></div><div class="global-ui"><div></div></div></div>
+    <script src="/assets/js/app.66558662.js" defer></script><script src="/assets/js/2.27ba8ed1.js" defer></script><script src="/assets/js/114.85e767f8.js" defer></script>
+  </body>
+</html>
