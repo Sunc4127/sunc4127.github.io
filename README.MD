@@ -48,7 +48,10 @@ npm install # or yarn install
 
 # develop
 npm run dev # or yarn dev
-```
+
+# 最重要的是，redeploy the website：（不用 push，运行 deploy.sh 联动 gh-page branch）
+npm run deploy 
+```l
 ## ⚡️未来...
 
 
