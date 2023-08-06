@@ -72,6 +72,99 @@ build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeF
   TARGET_PDB = CMakeCXXCompilerId.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 01-array
+
+
+#############################################
+# Order-only phony target for 01-array
+
+build cmake_object_order_depends_target_01-array: phony || CMakeFiles/01-array.dir
+
+build CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o: CXX_COMPILER__01-array_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/01-array.cpp || cmake_object_order_depends_target_01-array
+  DEP_FILE = CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01-array.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-array
+
+
+#############################################
+# Link the executable 01-array
+
+build 01-array: CXX_EXECUTABLE_LINKER__01-array_Debug CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/01-array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-array
+  TARGET_PDB = 01-array.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-pointers
+
+
+#############################################
+# Order-only phony target for 02-pointers
+
+build cmake_object_order_depends_target_02-pointers: phony || CMakeFiles/02-pointers.dir
+
+build CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o: CXX_COMPILER__02-pointers_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/02-pointers.cpp || cmake_object_order_depends_target_02-pointers
+  DEP_FILE = CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/02-pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-pointers
+
+
+#############################################
+# Link the executable 02-pointers
+
+build 02-pointers: CXX_EXECUTABLE_LINKER__02-pointers_Debug CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/02-pointers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-pointers
+  TARGET_PDB = 02-pointers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-strings
+
+
+#############################################
+# Order-only phony target for 03-strings
+
+build cmake_object_order_depends_target_03-strings: phony || CMakeFiles/03-strings.dir
+
+build CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o: CXX_COMPILER__03-strings_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/03-strings.cpp || cmake_object_order_depends_target_03-strings
+  DEP_FILE = CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/03-strings.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-strings
+
+
+#############################################
+# Link the executable 03-strings
+
+build 03-strings: CXX_EXECUTABLE_LINKER__03-strings_Debug CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/03-strings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-strings
+  TARGET_PDB = 03-strings.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01-0704-search
 
 
@@ -132,6 +225,37 @@ build 02-0035-searchInsert: CXX_EXECUTABLE_LINKER__02-0035-searchInsert_Debug CM
   PRE_LINK = :
   TARGET_FILE = 02-0035-searchInsert
   TARGET_PDB = 02-0035-searchInsert.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-0034-searchRange
+
+
+#############################################
+# Order-only phony target for 03-0034-searchRange
+
+build cmake_object_order_depends_target_03-0034-searchRange: phony || CMakeFiles/03-0034-searchRange.dir
+
+build CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o: CXX_COMPILER__03-0034-searchRange_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/03-0034-searchRange.cpp || cmake_object_order_depends_target_03-0034-searchRange
+  DEP_FILE = CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/03-0034-searchRange.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-0034-searchRange
+
+
+#############################################
+# Link the executable 03-0034-searchRange
+
+build 03-0034-searchRange: CXX_EXECUTABLE_LINKER__03-0034-searchRange_Debug CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/03-0034-searchRange.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-0034-searchRange
+  TARGET_PDB = 03-0034-searchRange.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 0027-removeElement
@@ -260,7 +384,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug
 
-build all: phony CMakeCXXCompilerId 01-0704-search 02-0035-searchInsert 0027-removeElement main test
+build all: phony CMakeCXXCompilerId 01-array 02-pointers 03-strings 01-0704-search 02-0035-searchInsert 03-0034-searchRange 0027-removeElement main test
 
 # =============================================================================
 # Built-in targets

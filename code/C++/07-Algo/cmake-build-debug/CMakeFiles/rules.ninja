@@ -33,6 +33,63 @@ rule CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__01-array_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__01-array_Debug
+  command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__02-pointers_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__02-pointers_Debug
+  command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__03-strings_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__03-strings_Debug
+  command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__01-0704-search_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -63,6 +120,25 @@ rule CXX_COMPILER__02-0035-searchInsert_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__02-0035-searchInsert_Debug
+  command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__03-0034-searchRange_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__03-0034-searchRange_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
