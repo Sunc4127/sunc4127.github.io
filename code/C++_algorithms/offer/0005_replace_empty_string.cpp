@@ -1,5 +1,5 @@
-#include <iostream> 
-
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     string replaceSpace(string s) {

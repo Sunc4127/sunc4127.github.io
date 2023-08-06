@@ -1,0 +1,10 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo -B /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/01-0704-search.cpp will be compiled to bin/01-0704-search
+    -- src/02-0035-searchInsert.cpp will be compiled to bin/02-0035-searchInsert
+    -- src/0027-removeElement.cpp will be compiled to bin/0027-removeElement
+    -- src/main.cpp will be compiled to bin/main
+    -- src/test.cpp will be compiled to bin/test
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug

@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "07_Algo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "0027-removeElement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0027-removeElement-Debug-fc7b51ea514c26fea90d.json",
+					"name" : "0027-removeElement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-0704-search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-0704-search-Debug-0e5be8160e4a4ac33e2b.json",
+					"name" : "01-0704-search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-0035-searchInsert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-0035-searchInsert-Debug-ee8c46177a04e4096bd5.json",
+					"name" : "02-0035-searchInsert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-53e0846471630505b1c5.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-6046b04e1a548b791682.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-c909870207af428c59b0.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug",
+		"source" : "/Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
