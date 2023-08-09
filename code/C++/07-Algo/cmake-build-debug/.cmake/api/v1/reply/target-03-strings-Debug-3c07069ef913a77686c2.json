@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "02-0035-searchInsert"
+			"path" : "03-strings"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
 				}
 			],
 			"language" : "CXX",
@@ -45,7 +45,7 @@
 				[
 					1
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "02-0035-searchInsert::@6890427a1f51a3e7e1df",
+	"id" : "03-strings::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "02-0035-searchInsert",
-	"nameOnDisk" : "02-0035-searchInsert",
+	"name" : "03-strings",
+	"nameOnDisk" : "03-strings",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/01-array-01-binary-search/02-0035-searchInsert.cpp",
+			"path" : "src/000-Ultimate-C++-Part2/03-strings.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

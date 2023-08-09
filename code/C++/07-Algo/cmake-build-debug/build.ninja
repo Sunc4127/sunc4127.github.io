@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_CMakeCXXCompilerId: phony || CMakeFiles/
 
 build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
   DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX
 
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_01-array: phony || CMakeFiles/01-array.d
 
 build CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o: CXX_COMPILER__01-array_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/01-array.cpp || cmake_object_order_depends_target_01-array
   DEP_FILE = CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/01-array.dir
   OBJECT_FILE_DIR = CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2
 
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_02-pointers: phony || CMakeFiles/02-poin
 
 build CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o: CXX_COMPILER__02-pointers_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/02-pointers.cpp || cmake_object_order_depends_target_02-pointers
   DEP_FILE = CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/02-pointers.dir
   OBJECT_FILE_DIR = CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2
 
@@ -144,7 +144,7 @@ build cmake_object_order_depends_target_03-strings: phony || CMakeFiles/03-strin
 
 build CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o: CXX_COMPILER__03-strings_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/03-strings.cpp || cmake_object_order_depends_target_03-strings
   DEP_FILE = CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/03-strings.dir
   OBJECT_FILE_DIR = CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2
 
@@ -175,7 +175,7 @@ build cmake_object_order_depends_target_01-0704-search: phony || CMakeFiles/01-0
 
 build CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search/01-0704-search.cpp.o: CXX_COMPILER__01-0704-search_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/01-0704-search.cpp || cmake_object_order_depends_target_01-0704-search
   DEP_FILE = CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search/01-0704-search.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/01-0704-search.dir
   OBJECT_FILE_DIR = CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search
 
@@ -206,7 +206,7 @@ build cmake_object_order_depends_target_02-0035-searchInsert: phony || CMakeFile
 
 build CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search/02-0035-searchInsert.cpp.o: CXX_COMPILER__02-0035-searchInsert_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/02-0035-searchInsert.cpp || cmake_object_order_depends_target_02-0035-searchInsert
   DEP_FILE = CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search/02-0035-searchInsert.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/02-0035-searchInsert.dir
   OBJECT_FILE_DIR = CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search
 
@@ -237,7 +237,7 @@ build cmake_object_order_depends_target_03-0034-searchRange: phony || CMakeFiles
 
 build CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o: CXX_COMPILER__03-0034-searchRange_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/03-0034-searchRange.cpp || cmake_object_order_depends_target_03-0034-searchRange
   DEP_FILE = CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/03-0034-searchRange.dir
   OBJECT_FILE_DIR = CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search
 
@@ -268,7 +268,7 @@ build cmake_object_order_depends_target_0027-removeElement: phony || CMakeFiles/
 
 build CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element/0027-removeElement.cpp.o: CXX_COMPILER__0027-removeElement_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-02-remove-element/0027-removeElement.cpp || cmake_object_order_depends_target_0027-removeElement
   DEP_FILE = CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element/0027-removeElement.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/0027-removeElement.dir
   OBJECT_FILE_DIR = CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element
 
@@ -299,7 +299,7 @@ build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
 build CMakeFiles/main.dir/src/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
@@ -330,7 +330,7 @@ build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
 build CMakeFiles/test.dir/src/test.cpp.o: CXX_COMPILER__test_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/test.cpp || cmake_object_order_depends_target_test
   DEP_FILE = CMakeFiles/test.dir/src/test.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/src
 

@@ -205,7 +205,7 @@ int main () {
     // smart pointers are not compatible with arrays
 
     // cannot do arithmetic with smart pointers
-    unique_ptr<int> number11();
+    unique_ptr<int> number11(new int);
     cout << *number11 << endl;
 
     // recommended way to create a smart unique pointer

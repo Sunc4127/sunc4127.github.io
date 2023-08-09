@@ -16,6 +16,7 @@
 #include<unordered_map>
 #include<unordered_set>
 #include<algorithm>
+#include<memory>
 
 
 using namespace std;
