@@ -2,6 +2,8 @@
 /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/01-array.dir
 /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/02-pointers.dir
 /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/03-strings.dir
+/Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/04-structures-and-enumerations.dir
+/Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/05-streams-and-files.dir
 /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/01-0704-search.dir
 /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/02-0035-searchInsert.dir
 /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/03-0034-searchRange.dir

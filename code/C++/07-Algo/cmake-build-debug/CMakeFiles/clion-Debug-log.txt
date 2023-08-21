@@ -3,6 +3,8 @@
     -- src/01-array.cpp will be compiled to bin/01-array
     -- src/02-pointers.cpp will be compiled to bin/02-pointers
     -- src/03-strings.cpp will be compiled to bin/03-strings
+    -- src/04-structures-and-enumerations.cpp will be compiled to bin/04-structures-and-enumerations
+    -- src/05-streams-and-files.cpp will be compiled to bin/05-streams-and-files
     -- src/01-0704-search.cpp will be compiled to bin/01-0704-search
     -- src/02-0035-searchInsert.cpp will be compiled to bin/02-0035-searchInsert
     -- src/03-0034-searchRange.cpp will be compiled to bin/03-0034-searchRange

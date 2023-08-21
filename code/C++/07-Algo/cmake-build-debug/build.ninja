@@ -165,6 +165,68 @@ build 03-strings: CXX_EXECUTABLE_LINKER__03-strings_Debug CMakeFiles/03-strings.
   TARGET_PDB = 03-strings.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 04-structures-and-enumerations
+
+
+#############################################
+# Order-only phony target for 04-structures-and-enumerations
+
+build cmake_object_order_depends_target_04-structures-and-enumerations: phony || CMakeFiles/04-structures-and-enumerations.dir
+
+build CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp.o: CXX_COMPILER__04-structures-and-enumerations_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp || cmake_object_order_depends_target_04-structures-and-enumerations
+  DEP_FILE = CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/04-structures-and-enumerations.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-structures-and-enumerations
+
+
+#############################################
+# Link the executable 04-structures-and-enumerations
+
+build 04-structures-and-enumerations: CXX_EXECUTABLE_LINKER__04-structures-and-enumerations_Debug CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/04-structures-and-enumerations.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04-structures-and-enumerations
+  TARGET_PDB = 04-structures-and-enumerations.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05-streams-and-files
+
+
+#############################################
+# Order-only phony target for 05-streams-and-files
+
+build cmake_object_order_depends_target_05-streams-and-files: phony || CMakeFiles/05-streams-and-files.dir
+
+build CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp.o: CXX_COMPILER__05-streams-and-files_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp || cmake_object_order_depends_target_05-streams-and-files
+  DEP_FILE = CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/05-streams-and-files.dir
+  OBJECT_FILE_DIR = CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05-streams-and-files
+
+
+#############################################
+# Link the executable 05-streams-and-files
+
+build 05-streams-and-files: CXX_EXECUTABLE_LINKER__05-streams-and-files_Debug CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/05-streams-and-files.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 05-streams-and-files
+  TARGET_PDB = 05-streams-and-files.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01-0704-search
 
 
@@ -384,7 +446,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug
 
-build all: phony CMakeCXXCompilerId 01-array 02-pointers 03-strings 01-0704-search 02-0035-searchInsert 03-0034-searchRange 0027-removeElement main test
+build all: phony CMakeCXXCompilerId 01-array 02-pointers 03-strings 04-structures-and-enumerations 05-streams-and-files 01-0704-search 02-0035-searchInsert 03-0034-searchRange 0027-removeElement main test
 
 # =============================================================================
 # Built-in targets
