@@ -21,11 +21,31 @@ int getNumber(string prompt) {
     return number;
 }
 
+string to_string(double number, int precision) {
+    stringstream stream;
+    stream << fixed << setprecision(precision) << number;
+    return stream.str();
+}
+
 struct Movie {
     int id;
     string title;
     int year;
 };
+
+Movie parseMovie(string str) {
+    stringstream stream;
+    stream.str(str);
+
+    Movie movie;
+    getline(stream, str, ','); // read until the first comma
+    movie.id = stoi(str);
+    getline(stream, str, ',');
+    movie.title = str;
+    getline(stream, str);
+    movie.year = stoi(str);
+    return movie;
+}
 
 int main() {
     // writing to a stream
@@ -74,11 +94,12 @@ int main() {
         inFile.close();
     }
 
-    // writing to a binary file
+    // writing to a binary file; binary file is more efficient than text file, though it is not human-readable
     int numbers[3] = {1, 2, 3};
     ofstream outFile2;
     outFile2.open("file.bin", ios::trunc | ios::binary);
     if (outFile2.is_open()) {
+        // represent the address of the number as a char pointer
         outFile2.write(reinterpret_cast<char *>(&numbers), sizeof(numbers));
         outFile2.close();
     } else {
@@ -90,9 +111,38 @@ int main() {
     inFile2.open("file.bin", ios::binary);
     if (inFile2.is_open()) {
         int number;
+        // read the file until the end
         while (inFile2.read(reinterpret_cast<char *>(&number), sizeof(number))) {
             cout << number << endl;
         }
         inFile2.close();
     }
+
+    // fstream: file stream, both input and output, append to the end of the file
+    fstream file;
+    file.open("file.txt", ios::in | ios::out | ios::app);
+    if (file.is_open()) {
+        file << "hello world" << endl;
+        file.close();
+    }
+
+    // string stream classes
+    // stringstream: string stream
+    // istringstream: input string stream
+    // ostringstream: output string stream
+    cout << to_string(1.23456789, 2) << endl;
+
+    // parse string to number
+    cout << "\nparse string to number:\n";
+    string strParse = "12 23";
+    stringstream streamParse;
+    streamParse.str(strParse);
+    int firstDouble;
+    streamParse >> firstDouble;
+    int secondDouble;
+    streamParse >> secondDouble;
+    cout << firstDouble + secondDouble << endl;
+
+    auto movie = parseMovie("1,The Matrix,1999");
+    cout << movie.title << endl;
 };

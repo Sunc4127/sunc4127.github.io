@@ -9,6 +9,8 @@
 #include<vector>
 #include<iostream>
 #include<fstream>
+#include<sstream>
+#include<iomanip>
 #include<cmath>
 #include<stack>
 #include<queue>
