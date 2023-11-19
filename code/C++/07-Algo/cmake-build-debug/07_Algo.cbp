@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="07_Algo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeCXXCompilerId">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeCXXCompilerId.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeCXXCompilerId/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeCXXCompilerId.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-array">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/01-array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-array"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-array/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/01-array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-array/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-pointers">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/02-pointers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-pointers"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-pointers/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/02-pointers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-pointers/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-strings">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/03-strings.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-strings"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-strings/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/03-strings.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-strings/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-structures-and-enumerations">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/04-structures-and-enumerations.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-structures-and-enumerations"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-structures-and-enumerations/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/04-structures-and-enumerations.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-structures-and-enumerations/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05-streams-and-files">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/05-streams-and-files.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 05-streams-and-files"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05-streams-and-files/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/05-streams-and-files.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 05-streams-and-files/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-0704-search">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/01-0704-search.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-0704-search"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-0704-search/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/01-0704-search.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-0704-search/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-0035-searchInsert">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/02-0035-searchInsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-0035-searchInsert"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-0035-searchInsert/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/02-0035-searchInsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-0035-searchInsert/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-0034-searchRange">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/03-0034-searchRange.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-0034-searchRange"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-0034-searchRange/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/03-0034-searchRange.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-0034-searchRange/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0027-removeElement">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/0027-removeElement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 0027-removeElement"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0027-removeElement/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/0027-removeElement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 0027-removeElement/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Apps/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+			<Option target="CMakeCXXCompilerId"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/include/library.h">
+			<Option target="CMakeCXXCompilerId"/>
+			<Option target="01-array"/>
+			<Option target="02-pointers"/>
+			<Option target="03-strings"/>
+			<Option target="04-structures-and-enumerations"/>
+			<Option target="05-streams-and-files"/>
+			<Option target="01-0704-search"/>
+			<Option target="02-0035-searchInsert"/>
+			<Option target="03-0034-searchRange"/>
+			<Option target="0027-removeElement"/>
+			<Option target="main"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/01-array.cpp">
+			<Option target="01-array"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/02-pointers.cpp">
+			<Option target="02-pointers"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/03-strings.cpp">
+			<Option target="03-strings"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp">
+			<Option target="04-structures-and-enumerations"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp">
+			<Option target="05-streams-and-files"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/01-0704-search.cpp">
+			<Option target="01-0704-search"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/02-0035-searchInsert.cpp">
+			<Option target="02-0035-searchInsert"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/03-0034-searchRange.cpp">
+			<Option target="03-0034-searchRange"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/01-array-02-remove-element/0027-removeElement.cpp">
+			<Option target="0027-removeElement"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/src/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
