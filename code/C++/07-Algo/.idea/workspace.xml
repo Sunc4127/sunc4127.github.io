@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="07_Algo" targetName="05-streams-and-files" />
+      <config projectName="07_Algo" targetName="03-strings" />
+      <config projectName="07_Algo" targetName="main" />
+      <config projectName="07_Algo" targetName="0027-removeElement" />
+      <config projectName="07_Algo" targetName="02-pointers" />
+      <config projectName="07_Algo" targetName="02-0035-searchInsert" />
+      <config projectName="07_Algo" targetName="test" />
+      <config projectName="07_Algo" targetName="01-0704-search" />
+      <config projectName="07_Algo" targetName="01-array" />
+      <config projectName="07_Algo" targetName="03-0034-searchRange" />
+      <config projectName="07_Algo" targetName="04-structures-and-enumerations" />
+      <config projectName="07_Algo" targetName="CMakeCXXCompilerId" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eccdc48a-5ba7-4db5-8b30-02c04ae41e8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/0027-removeElement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/0027-removeElement.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2VpzSpkzPJXd7v01ZFqOj42bvy5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Material Theme Notifications": "Material theme UI notifications",
+    "Notification.DoNotAsk-Material Theme Notifications": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/GitHub-repos/sunc4127.github.io/code/C++/07-Algo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake 应用程序.0027-removeElement">
+    <configuration name="0027-removeElement" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="0027-removeElement" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="0027-removeElement">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-0704-search" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="01-0704-search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="01-0704-search">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-array" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="01-array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="01-array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-0035-searchInsert" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="02-0035-searchInsert" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="02-0035-searchInsert">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-pointers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="02-pointers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="02-pointers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-0034-searchRange" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="03-0034-searchRange" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="03-0034-searchRange">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-strings" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="03-strings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="03-strings">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="04-structures-and-enumerations" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="04-structures-and-enumerations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="04-structures-and-enumerations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="05-streams-and-files" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="05-streams-and-files" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="05-streams-and-files">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMakeCXXCompilerId" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="CMakeCXXCompilerId" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="CMakeCXXCompilerId">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="07_Algo" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="07_Algo" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.0027-removeElement" />
+      <item itemvalue="CMake 应用程序.01-0704-search" />
+      <item itemvalue="CMake 应用程序.01-array" />
+      <item itemvalue="CMake 应用程序.02-0035-searchInsert" />
+      <item itemvalue="CMake 应用程序.02-pointers" />
+      <item itemvalue="CMake 应用程序.03-0034-searchRange" />
+      <item itemvalue="CMake 应用程序.03-strings" />
+      <item itemvalue="CMake 应用程序.04-structures-and-enumerations" />
+      <item itemvalue="CMake 应用程序.05-streams-and-files" />
+      <item itemvalue="CMake 应用程序.CMakeCXXCompilerId" />
+      <item itemvalue="CMake 应用程序.main" />
+      <item itemvalue="CMake 应用程序.test" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eccdc48a-5ba7-4db5-8b30-02c04ae41e8f" name="Changes" comment="" />
+      <created>1695547812146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695547812146</updated>
+      <workItem from="1695547813116" duration="275000" />
+      <workItem from="1695549501649" duration="1374000" />
+      <workItem from="1695552157352" duration="37000" />
+      <workItem from="1695552198211" duration="4000" />
+      <workItem from="1695552209872" duration="631000" />
+      <workItem from="1695552852116" duration="121000" />
+      <workItem from="1695552983910" duration="561000" />
+      <workItem from="1695553559900" duration="1715000" />
+      <workItem from="1695563810413" duration="59000" />
+      <workItem from="1695563878464" duration="2000" />
+      <workItem from="1695563890970" duration="2363000" />
+      <workItem from="1699153421513" duration="639000" />
+      <workItem from="1699157642891" duration="634000" />
+      <workItem from="1700361429052" duration="51000" />
+      <workItem from="1700361489817" duration="1394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
