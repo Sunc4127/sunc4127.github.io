@@ -19,3 +19,6 @@ urls.txt
 
 # theme
 theme-vdoing
+
+code/C++/07-Algo/.idea/*
+code/C++/07-Algo/cmake-build-debug/*

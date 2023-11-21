@@ -1,3 +1,0 @@
-"D:\Apps\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\CMakeCXXCompilerId.dir/objects.a
-"D:\Apps\CLion 2022.3\bin\mingw\bin\ar.exe" qc CMakeFiles\CMakeCXXCompilerId.dir/objects.a @CMakeFiles\CMakeCXXCompilerId.dir\objects1.rsp
-"D:\Apps\CLion 2022.3\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\CMakeCXXCompilerId.dir/objects.a -Wl,--no-whole-archive -o CMakeCXXCompilerId.exe -Wl,--out-implib,libCMakeCXXCompilerId.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CMakeCXXCompilerId.dir\linkLibs.rsp

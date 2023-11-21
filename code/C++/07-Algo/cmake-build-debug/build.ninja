@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_CMakeCXXCompilerId: phony || CMakeFiles/
 
 build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
   DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX
 
@@ -64,7 +64,7 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXX
 # Link the executable CMakeCXXCompilerId
 
 build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_01-array: phony || CMakeFiles/01-array.d
 
 build CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o: CXX_COMPILER__01-array_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/01-array.cpp || cmake_object_order_depends_target_01-array
   DEP_FILE = CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/01-array.dir
   OBJECT_FILE_DIR = CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2
 
@@ -95,7 +95,7 @@ build CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o: CXX_COM
 # Link the executable 01-array
 
 build 01-array: CXX_EXECUTABLE_LINKER__01-array_Debug CMakeFiles/01-array.dir/src/000-Ultimate-C++-Part2/01-array.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/01-array.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_02-pointers: phony || CMakeFiles/02-poin
 
 build CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o: CXX_COMPILER__02-pointers_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/02-pointers.cpp || cmake_object_order_depends_target_02-pointers
   DEP_FILE = CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/02-pointers.dir
   OBJECT_FILE_DIR = CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2
 
@@ -126,7 +126,7 @@ build CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o: C
 # Link the executable 02-pointers
 
 build 02-pointers: CXX_EXECUTABLE_LINKER__02-pointers_Debug CMakeFiles/02-pointers.dir/src/000-Ultimate-C++-Part2/02-pointers.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/02-pointers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -144,7 +144,7 @@ build cmake_object_order_depends_target_03-strings: phony || CMakeFiles/03-strin
 
 build CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o: CXX_COMPILER__03-strings_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/03-strings.cpp || cmake_object_order_depends_target_03-strings
   DEP_FILE = CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/03-strings.dir
   OBJECT_FILE_DIR = CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2
 
@@ -157,7 +157,7 @@ build CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o: CXX
 # Link the executable 03-strings
 
 build 03-strings: CXX_EXECUTABLE_LINKER__03-strings_Debug CMakeFiles/03-strings.dir/src/000-Ultimate-C++-Part2/03-strings.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/03-strings.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -175,7 +175,7 @@ build cmake_object_order_depends_target_04-structures-and-enumerations: phony ||
 
 build CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp.o: CXX_COMPILER__04-structures-and-enumerations_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp || cmake_object_order_depends_target_04-structures-and-enumerations
   DEP_FILE = CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/04-structures-and-enumerations.dir
   OBJECT_FILE_DIR = CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2
 
@@ -188,7 +188,7 @@ build CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/0
 # Link the executable 04-structures-and-enumerations
 
 build 04-structures-and-enumerations: CXX_EXECUTABLE_LINKER__04-structures-and-enumerations_Debug CMakeFiles/04-structures-and-enumerations.dir/src/000-Ultimate-C++-Part2/04-structures-and-enumerations.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/04-structures-and-enumerations.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -206,7 +206,7 @@ build cmake_object_order_depends_target_05-streams-and-files: phony || CMakeFile
 
 build CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp.o: CXX_COMPILER__05-streams-and-files_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp || cmake_object_order_depends_target_05-streams-and-files
   DEP_FILE = CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/05-streams-and-files.dir
   OBJECT_FILE_DIR = CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2
 
@@ -219,7 +219,7 @@ build CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-
 # Link the executable 05-streams-and-files
 
 build 05-streams-and-files: CXX_EXECUTABLE_LINKER__05-streams-and-files_Debug CMakeFiles/05-streams-and-files.dir/src/000-Ultimate-C++-Part2/05-streams-and-files.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/05-streams-and-files.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -237,7 +237,7 @@ build cmake_object_order_depends_target_01-0704-search: phony || CMakeFiles/01-0
 
 build CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search/01-0704-search.cpp.o: CXX_COMPILER__01-0704-search_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/01-0704-search.cpp || cmake_object_order_depends_target_01-0704-search
   DEP_FILE = CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search/01-0704-search.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/01-0704-search.dir
   OBJECT_FILE_DIR = CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search
 
@@ -250,7 +250,7 @@ build CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search/01-0704-search
 # Link the executable 01-0704-search
 
 build 01-0704-search: CXX_EXECUTABLE_LINKER__01-0704-search_Debug CMakeFiles/01-0704-search.dir/src/01-array-01-binary-search/01-0704-search.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/01-0704-search.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -268,7 +268,7 @@ build cmake_object_order_depends_target_02-0035-searchInsert: phony || CMakeFile
 
 build CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search/02-0035-searchInsert.cpp.o: CXX_COMPILER__02-0035-searchInsert_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/02-0035-searchInsert.cpp || cmake_object_order_depends_target_02-0035-searchInsert
   DEP_FILE = CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search/02-0035-searchInsert.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/02-0035-searchInsert.dir
   OBJECT_FILE_DIR = CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search
 
@@ -281,7 +281,7 @@ build CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search/02-0035-
 # Link the executable 02-0035-searchInsert
 
 build 02-0035-searchInsert: CXX_EXECUTABLE_LINKER__02-0035-searchInsert_Debug CMakeFiles/02-0035-searchInsert.dir/src/01-array-01-binary-search/02-0035-searchInsert.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/02-0035-searchInsert.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -299,7 +299,7 @@ build cmake_object_order_depends_target_03-0034-searchRange: phony || CMakeFiles
 
 build CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o: CXX_COMPILER__03-0034-searchRange_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-01-binary-search/03-0034-searchRange.cpp || cmake_object_order_depends_target_03-0034-searchRange
   DEP_FILE = CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/03-0034-searchRange.dir
   OBJECT_FILE_DIR = CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search
 
@@ -312,7 +312,7 @@ build CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-s
 # Link the executable 03-0034-searchRange
 
 build 03-0034-searchRange: CXX_EXECUTABLE_LINKER__03-0034-searchRange_Debug CMakeFiles/03-0034-searchRange.dir/src/01-array-01-binary-search/03-0034-searchRange.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/03-0034-searchRange.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -330,7 +330,7 @@ build cmake_object_order_depends_target_0027-removeElement: phony || CMakeFiles/
 
 build CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element/0027-removeElement.cpp.o: CXX_COMPILER__0027-removeElement_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/01-array-02-remove-element/0027-removeElement.cpp || cmake_object_order_depends_target_0027-removeElement
   DEP_FILE = CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element/0027-removeElement.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/0027-removeElement.dir
   OBJECT_FILE_DIR = CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element
 
@@ -343,7 +343,7 @@ build CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element/0027-remo
 # Link the executable 0027-removeElement
 
 build 0027-removeElement: CXX_EXECUTABLE_LINKER__0027-removeElement_Debug CMakeFiles/0027-removeElement.dir/src/01-array-02-remove-element/0027-removeElement.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/0027-removeElement.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -361,7 +361,7 @@ build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
 build CMakeFiles/main.dir/src/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
@@ -374,7 +374,7 @@ build CMakeFiles/main.dir/src/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /Us
 # Link the executable main
 
 build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/main.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -392,7 +392,7 @@ build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
 build CMakeFiles/test.dir/src/test.cpp.o: CXX_COMPILER__test_unscanned_Debug /Users/chengsun/Github/sunc4127.github.io/code/C++/07-Algo/src/test.cpp || cmake_object_order_depends_target_test
   DEP_FILE = CMakeFiles/test.dir/src/test.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/src
 
@@ -405,7 +405,7 @@ build CMakeFiles/test.dir/src/test.cpp.o: CXX_COMPILER__test_unscanned_Debug /Us
 # Link the executable test
 
 build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/src/test.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/test.dir
   POST_BUILD = :
   PRE_LINK = :
