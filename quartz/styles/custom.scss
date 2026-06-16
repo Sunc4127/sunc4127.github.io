@@ -1,3 +1,208 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+body[data-slug="index"] .page-header {
+  display: none;
+}
+
+.note-properties {
+  display: none;
+}
+
+body[data-slug="index"] .center {
+  padding-top: 4.5rem;
+}
+
+body[data-slug="index"] article {
+  width: 100%;
+}
+
+body[data-slug="index"] article > * {
+  max-width: none;
+}
+
+.garden-hero {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--secondary) 12%, transparent), transparent 46%),
+    linear-gradient(180deg, color-mix(in srgb, var(--lightgray) 45%, transparent), transparent);
+}
+
+.garden-kicker,
+.section-heading p,
+.panel-label {
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin: 0 0 0.7rem;
+}
+
+.garden-hero h1 {
+  color: var(--dark);
+  font-size: clamp(2.8rem, 8vw, 5.8rem);
+  line-height: 0.95;
+  margin: 0;
+}
+
+.garden-lede {
+  color: var(--darkgray);
+  max-width: 48rem;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  line-height: 1.6;
+  margin: 1.5rem 0 0;
+}
+
+.garden-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.garden-actions a {
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  background: var(--light);
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.garden-actions a:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+
+.garden-section {
+  margin-top: 3rem;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.topic-card {
+  min-height: 8.5rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1.15rem;
+  background: var(--light);
+  color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:
+    transform 0.16s ease,
+    border-color 0.16s ease,
+    background-color 0.16s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 7%, var(--light));
+}
+
+.topic-card span {
+  color: var(--dark);
+  font-family: var(--headerFont);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.topic-card strong {
+  color: var(--darkgray);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.accent-ai {
+  border-top: 4px solid #276749;
+}
+
+.accent-hci {
+  border-top: 4px solid #7c3aed;
+}
+
+.accent-programming {
+  border-top: 4px solid #0f766e;
+}
+
+.accent-tools {
+  border-top: 4px solid #b45309;
+}
+
+.accent-notes {
+  border-top: 4px solid #475569;
+}
+
+.garden-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.8fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.recent-panel {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1.2rem;
+  background: color-mix(in srgb, var(--lightgray) 32%, transparent);
+}
+
+.recent-panel a {
+  display: block;
+  color: var(--dark);
+  font-family: var(--headerFont);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.recent-panel span {
+  color: var(--darkgray);
+  line-height: 1.5;
+}
+
+@media (min-width: 1200px) {
+  body[data-slug="index"] .page {
+    max-width: 1280px;
+  }
+
+  body[data-slug="index"] .page > #quartz-body {
+    grid-template:
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-footer" / 240px minmax(0, 1fr);
+  }
+
+  body[data-slug="index"] .sidebar.right {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  body[data-slug="index"] .center {
+    padding-top: 1.5rem;
+  }
+
+  .garden-hero {
+    padding: 1.5rem;
+  }
+
+  .topic-grid,
+  .garden-split {
+    grid-template-columns: 1fr;
+  }
+}
