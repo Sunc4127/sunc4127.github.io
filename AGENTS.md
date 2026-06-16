@@ -1,10 +1,26 @@
-# Agent Guidelines
+# AGENTS.md
 
-This repository hosts the VuePress-based blog for **Sunc4127** using the `vuepress-theme-vdoing` theme. Follow the guidance below when making changes:
+This repository hosts the Quartz 5 POC for `sunc4127.github.io`.
 
-- Use `npm` (or `yarn`) scripts defined in `package.json` for development (`npm run dev`) and production builds (`npm run build`). Run a build before committing major content or configuration changes to ensure the site still compiles.
-- Keep Markdown content in `docs/` tidy: prefer fenced code blocks, avoid trailing whitespace, and maintain existing front-matter fields. The helper script `npm run editFm` can normalize front matter metadata when needed.
-- When updating deployment automation or shell scripts under the repository root, stick to POSIX-compliant shell syntax (the current scripts use `/usr/bin/env sh`).
-- Avoid committing generated artifacts such as `docs/.vuepress/dist` or local caches. They should be produced during deployment via `deploy.sh`.
+## Rules
 
-If you add new directories with their own conventions, include nested `AGENTS.md` files to document any additional, directory-specific rules.
+- Do not copy the full Obsidian vault into this repository.
+- Public content must live under `content/` and include `publish: true`.
+- Do not commit local vault paths, raw private notes, execution logs, financial,
+  family, health, career application, Dida, Notion governance, or daily-log
+  material.
+- Generated output in `public/` is not committed.
+- Use `npm run build` and `npm run check:public` before calling the branch ready.
+
+## Content Sources
+
+The intended local source is Scott's Obsidian vault. Use
+`scripts/sync-public-notes.mjs` to copy allowlisted notes and assets into
+Quartz. The sync script is conservative by design: unresolved private wikilinks,
+unresolved local assets, missing required frontmatter, or forbidden source
+directories are build blockers for published notes.
+
+## Deployment
+
+GitHub Pages uses Actions. The POC branch should pass CI first; production
+deployment remains tied to `main` until the final cutover is approved.
