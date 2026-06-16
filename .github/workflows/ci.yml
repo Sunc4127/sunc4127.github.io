@@ -33,3 +33,6 @@ jobs:
 
       - name: Public content safety scan
         run: npm run check:public
+
+      - name: Homepage render smoke scan
+        run: npm run check:homepage
