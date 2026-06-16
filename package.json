@@ -19,7 +19,8 @@
     "format": "npx prettier . --write",
     "sync:content": "node scripts/sync-public-notes.mjs",
     "check:public": "node scripts/check-public-build.mjs",
-    "validate": "npm run build && npm run check:public",
+    "check:homepage": "node scripts/check-homepage-render.mjs",
+    "validate": "npm run build && npm run check:public && npm run check:homepage",
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "install-plugins": "npx quartz plugin install --from-config"

@@ -4,12 +4,12 @@ body[data-slug="index"] .page-header {
   display: none;
 }
 
-.note-properties {
-  display: none;
-}
-
 body[data-slug="index"] .center {
   padding-top: 4.5rem;
+}
+
+body[data-slug="index"] .sidebar.right {
+  display: none;
 }
 
 body[data-slug="index"] article {
@@ -185,10 +185,6 @@ body[data-slug="index"] article > * {
     grid-template:
       "grid-sidebar-left grid-center"
       "grid-sidebar-left grid-footer" / 240px minmax(0, 1fr);
-  }
-
-  body[data-slug="index"] .sidebar.right {
-    display: none;
   }
 }
 

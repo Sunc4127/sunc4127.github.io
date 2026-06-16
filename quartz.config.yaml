@@ -151,11 +151,13 @@ plugins:
     layout:
       position: beforeBody
       priority: 10
+      condition: not-index
   - source: github:quartz-community/content-meta
     enabled: true
     layout:
       position: beforeBody
       priority: 20
+      condition: not-index
   - source: github:quartz-community/page-title
     enabled: true
     layout:
@@ -212,6 +214,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+      condition: not-index
 layout:
   groups:
     toolbar:
